@@ -46,30 +46,28 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
-        title:
-          "Ruby vs. Python comes down to the for loop (2021) (softwaredoug.com)",
+        title: "Ruby vs. Python comes down to the for loop (2021)",
         link: "https://softwaredoug.com/blog/2021/11/12/ruby-vs-python-for-loop.html",
       },
       {
         rank: 2,
-        title: "I should have loved biology (2020) (jsomers.net)",
+        title: "I should have loved biology (2020)",
         link: "https://jsomers.net/i-should-have-loved-biology/",
       },
       {
         rank: 3,
-        title: "Pico.sh – Hacker Labs (github.com/picosh)",
+        title: "Pico.sh – Hacker Labs",
         link: "https://github.com/picosh/pico",
       },
       {
         rank: 4,
         title:
-          "Penzai: JAX research toolkit for building, editing, and visualizing neural nets (github.com/google-deepmind)",
+          "Penzai: JAX research toolkit for building, editing, and visualizing neural nets",
         link: "https://github.com/google-deepmind/penzai",
       },
       {
         rank: 5,
-        title:
-          "The failure of the Domino's 30-minute delivery guarantee (thehustle.co)",
+        title: "The failure of the Domino's 30-minute delivery guarantee",
         link: "https://thehustle.co/originals/the-failure-of-the-dominos-30-minute-delivery-guarantee",
       },
     ],
@@ -79,30 +77,28 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
-        title: "당신이 기술 코파운더를 찾을 수 없는 이유 (breakneck.dev)",
+        title: "당신이 기술 코파운더를 찾을 수 없는 이유",
         link: "https://www.breakneck.dev/blog/no-tech-cofounder",
       },
       {
         rank: 2,
-        title:
-          "Python을 학습하기에 좋은 고품질 스크립트/작은 라이브러리는? (news.ycombinator.com)",
+        title: "Python을 학습하기에 좋은 고품질 스크립트/작은 라이브러리는?",
         link: "https://news.ycombinator.com/item?id=40085887",
       },
       {
         rank: 3,
         title:
-          "Pretzel - 데이터 탐색/시각화를 위한 오픈소스 오프라인 브라우저 기반 도구 (github.com/pretzelai)",
+          "Pretzel - 데이터 탐색/시각화를 위한 오픈소스 오프라인 브라우저 기반 도구",
         link: "https://github.com/pretzelai/pretzelai",
       },
       {
         rank: 4,
-        title:
-          "GN⁺: 분산형 SQLite: 패러다임의 전환인가 과장된 선전인가? (kerkour.com)",
+        title: "GN⁺: 분산형 SQLite: 패러다임의 전환인가 과장된 선전인가?",
         link: "https://kerkour.com/distributed-sqlite",
       },
       {
         rank: 5,
-        title: "GN⁺: Valkey가 빠르게 Redis를 대체하고 있음 (devops.com)",
+        title: "GN⁺: Valkey가 빠르게 Redis를 대체하고 있음",
         link: "https://devops.com/valkey-is-rapidly-overtaking-redis/",
       },
     ],
@@ -204,6 +200,56 @@ export const ContentsData: Data[] = [
         icon: "https://ph-files.imgix.net/13d5ad0c-7bb9-462c-813c-437c089dba39.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "AllMind AI: Your Personal Stock Analyst",
         link: "https://www.producthunt.com/posts/allmind-ai-your-personal-stock-analyst",
+      },
+    ],
+  },
+  {
+    title: "오늘의 SERVER",
+    contents: [
+      {
+        title: "[SaaS] 시간여행이 가능한 시스템 아키텍처",
+        link: "https://blog.gangnamunni.com/post/saas-event-sourcing/",
+      },
+      {
+        title: "[신청 시작] 4월 우아한테크세미나: Java의 미래, Virtual Thread",
+        link: "https://techblog.woowahan.com/17163/?utm_source=oneoneone",
+      },
+      {
+        title: "개발자를 잠 못 들게 만드는 코드",
+        link: "https://dev.gmarket.com/103",
+      },
+      {
+        title: "설계란 고민의 연속이다 1편",
+        link: "https://dev.gmarket.com/104",
+      },
+      {
+        title: "개발자가 손수 대규모 Cassandra를 신규 클러스터로 이전하기",
+        link: "https://techblog.lycorp.co.jp/ko/moving-large-scale-cassandra-to-a-new-cluster",
+      },
+    ],
+  },
+  {
+    title: "오늘의 WEB",
+    contents: [
+      {
+        title: "크로스 플랫폼 디자인 시스템, 1.5년의 기록 (2)",
+        link: "https://yozm.wishket.com/magazine/detail/2538/",
+      },
+      {
+        title: "2024 프론트엔드 기술스택 이야기",
+        link: "https://velog.io/@teo/2024-frontend-techstack",
+      },
+      {
+        title: "[번역] 재미와 이익을 위한 자바스크립트 최적화",
+        link: "https://velog.io/@surim014/optimizing-javascript-for-fun-and-for-profit",
+      },
+      {
+        title: "(번역) 자바스크립트 시각화하기 : 프로미스 실행",
+        link: "https://velog.io/@sehyunny/js-visualized-promise-execution",
+      },
+      {
+        title: "지금 당장 pnpm으로 넘어가야 하는 이유",
+        link: "https://lasbe.tistory.com/200?utm_source=oneoneone",
       },
     ],
   },
