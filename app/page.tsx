@@ -17,6 +17,15 @@ export default function Home() {
                       <a href={content.link}>
                         <span className="text-base">{content.rank}. </span>
                         <span>{content.title}</span>
+                        {content.icon ? (
+                          <Image
+                            src={content.icon}
+                            height={24}
+                            width={24}
+                            alt="trending_product"
+                            className="inline rounded-md ml-2 mb-1"
+                          />
+                        ) : null}
                       </a>
                     </div>
                   );
