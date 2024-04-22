@@ -2,6 +2,7 @@ type contents = {
   rank?: number;
   title: string;
   link: string;
+  icon?: string;
 };
 
 interface Data {
@@ -111,28 +112,33 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
+        icon: 'https://media.disquiet.io/images/product/thumbnail/4064e84a117102df8bdae1814ab01e4ac933f964684292091fed0433770e86d4?w=64&f=webp")',
         title: "Reliv 릴리브 QA 자동화",
         link: "https://disquiet.io/product/reliv-%EB%A6%B4%EB%A6%AC%EB%B8%8C-qa-%EC%9E%90%EB%8F%99%ED%99%94",
       },
       {
         rank: 2,
+        icon: 'https://media.disquiet.io/images/product/thumbnail/f2705ffc34b3005fc0c074ccd625b04ef27637b6753693edbdaa5c2472ede6be?w=64&f=webp")',
         title: "바퀴벌레 감별기",
         link: "https://disquiet.io/product/%EB%B0%94%ED%80%B4%EB%B2%8C%EB%A0%88-%EA%B0%90%EB%B3%84%EA%B8%B0",
       },
       {
         rank: 3,
+        icon: 'https://media.disquiet.io/images/product/thumbnail/2f68446994c5b0e4b7608fd1d40068f38b42d0125cb0da6da6cae40cb3219bb7?w=64&f=webp")',
         title: "모티브",
         link: "https://disquiet.io/product/%EB%AA%A8%ED%8B%B0%EB%B8%8C",
       },
       {
         rank: 4,
+        icon: 'https://media.disquiet.io/images/product/thumbnail/425ef6a2bd5e27017a674efae3e528cf7e27d3d513ca8f4a49cf5ab514ffca46?w=64&f=webp")',
         title: "플라이어",
         link: "https://disquiet.io/product/%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%96%B4-1713623995850",
       },
       {
         rank: 5,
-        title: "SumOne",
-        link: "https://disquiet.io/product/sum-one-1713226447105",
+        icon: 'https://media.disquiet.io/images/product/thumbnail/fe5dc950c46dd424abf42853e08dc114a4d8d87cf4b4077be55260212632588e?w=64&f=webp")',
+        title: "datarichard",
+        link: "https://disquiet.io/product/datarichard-1713574688648",
       },
     ],
   },
@@ -171,26 +177,31 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
+        icon: "https://ph-files.imgix.net/100d1bba-ff8e-464f-b23f-f289f59c464e.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Univi: Manage your ADHD",
         link: "https://www.producthunt.com/posts/univi-manage-your-adhd",
       },
       {
         rank: 2,
+        icon: "https://ph-files.imgix.net/1753c680-3256-4f46-9492-7377bf1611ab.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "AI Design Sketch by Stylar",
         link: "https://www.producthunt.com/posts/ai-design-sketch-by-stylar",
       },
       {
         rank: 3,
+        icon: "https://ph-files.imgix.net/4e714067-5f2e-4c67-814f-d16886553a27.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Sonnet",
         link: "https://www.producthunt.com/posts/sonnet-4",
       },
       {
         rank: 4,
+        icon: "https://ph-files.imgix.net/2495bade-0d4f-4962-96b1-c645ab10c586.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Notion Headers",
         link: "https://www.producthunt.com/posts/notion-headers-2",
       },
       {
         rank: 5,
+        icon: "https://ph-files.imgix.net/13d5ad0c-7bb9-462c-813c-437c089dba39.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "AllMind AI: Your Personal Stock Analyst",
         link: "https://www.producthunt.com/posts/allmind-ai-your-personal-stock-analyst",
       },
