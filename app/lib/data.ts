@@ -107,7 +107,7 @@ export const ContentsData: Data[] = [
     ],
   },
   {
-    title: "Trending product (disquiet)",
+    title: "Trending product (국내)",
     contents: [
       {
         rank: 1,
@@ -163,6 +163,36 @@ export const ContentsData: Data[] = [
         rank: 5,
         title: "Netflix의 Java 사용 변천사 (번역)",
         link: "https://careerly.co.kr/comments/102677",
+      },
+    ],
+  },
+  {
+    title: "Trending Product (해외)",
+    contents: [
+      {
+        rank: 1,
+        title: "Univi: Manage your ADHD",
+        link: "https://www.producthunt.com/posts/univi-manage-your-adhd",
+      },
+      {
+        rank: 2,
+        title: "AI Design Sketch by Stylar",
+        link: "https://www.producthunt.com/posts/ai-design-sketch-by-stylar",
+      },
+      {
+        rank: 3,
+        title: "Sonnet",
+        link: "https://www.producthunt.com/posts/sonnet-4",
+      },
+      {
+        rank: 4,
+        title: "Notion Headers",
+        link: "https://www.producthunt.com/posts/notion-headers-2",
+      },
+      {
+        rank: 5,
+        title: "AllMind AI: Your Personal Stock Analyst",
+        link: "https://www.producthunt.com/posts/allmind-ai-your-personal-stock-analyst",
       },
     ],
   },
