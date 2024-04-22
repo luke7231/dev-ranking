@@ -12,7 +12,7 @@ interface Data {
 
 export const ContentsData: Data[] = [
   {
-    title: "Careerly Top5 (Weekly)",
+    title: "Careerly TOP5 (Weekly)",
     contents: [
       {
         rank: 1,
@@ -42,7 +42,7 @@ export const ContentsData: Data[] = [
     ],
   },
   {
-    title: "HakerNews Top5",
+    title: "HakerNews TOP5",
     contents: [
       {
         rank: 1,
@@ -73,7 +73,7 @@ export const ContentsData: Data[] = [
     ],
   },
   {
-    title: "GeekNews Top5",
+    title: "GeekNews TOP5",
     contents: [
       {
         rank: 1,
@@ -104,7 +104,7 @@ export const ContentsData: Data[] = [
     ],
   },
   {
-    title: "Trending product (국내)",
+    title: "Trending product TOP5 (국내)",
     contents: [
       {
         rank: 1,
@@ -169,7 +169,7 @@ export const ContentsData: Data[] = [
     ],
   },
   {
-    title: "Trending Product (해외)",
+    title: "Trending Product TOP5 (글로벌)",
     contents: [
       {
         rank: 1,
@@ -250,6 +250,301 @@ export const ContentsData: Data[] = [
       {
         title: "지금 당장 pnpm으로 넘어가야 하는 이유",
         link: "https://lasbe.tistory.com/200?utm_source=oneoneone",
+      },
+    ],
+  },
+];
+
+export const techBlogs = [
+  {
+    topic: "Search",
+    list: [
+      {
+        title: "네이버",
+        link: "https://d2.naver.com/home",
+      },
+      {
+        title: "카카오",
+        link: "https://tech.kakao.com/blog/",
+      },
+      {
+        title: "네이버 플레이스",
+        link: "https://medium.com/naver-place-dev",
+      },
+      {
+        title: "구글",
+        link: "https://developers.googleblog.com/",
+      },
+      {
+        title: "Zum",
+        link: "https://zuminternet.github.io/",
+      },
+      {
+        title: "다나와",
+        link: "https://danawalab.github.io/",
+      },
+    ],
+  },
+  {
+    topic: "E-Commerce",
+    list: [
+      {
+        title: "쿠팡",
+        link: "https://medium.com/coupang-engineering/kr/home",
+      },
+      {
+        title: "지마켓",
+        link: "https://dev.gmarket.com/",
+      },
+      {
+        title: "마켓컬리",
+        link: "https://helloworld.kurly.com/",
+      },
+      {
+        title: "롯데ON",
+        link: "https://techblog.lotteon.com/",
+      },
+      {
+        title: "당근",
+        link: "https://medium.com/daangn",
+      },
+      {
+        title: "중고나라",
+        link: "https://blog.joongna.com/",
+      },
+      {
+        title: "아마존",
+        link: "https://developer.amazon.com/en-US/blogs/alexa",
+      },
+      {
+        title: "이베이",
+        link: "https://tech.ebayinc.com/",
+      },
+    ],
+  },
+  {
+    topic: "SNS",
+    list: [
+      {
+        title: "라인",
+        link: "https://engineering.linecorp.com/ko",
+      },
+      {
+        title: "페이스북",
+        link: "https://engineering.fb.com/",
+      },
+      {
+        title: "슬랙",
+        link: "https://slack.engineering/",
+      },
+      {
+        title: "트위터",
+        link: "https://blog.twitter.com/engineering/en_us",
+      },
+    ],
+  },
+  {
+    topic: "Fin Tech",
+    list: [
+      {
+        title: "토스",
+        link: "https://toss.tech/",
+      },
+      {
+        title: "카카오페이",
+        link: "https://tech.kakaopay.com/",
+      },
+      {
+        title: "뱅크샐러드",
+        link: "https://blog.banksalad.com/",
+      },
+      {
+        title: "페이팔",
+        link: "https://medium.com/paypal-tech",
+      },
+    ],
+  },
+  {
+    topic: "모빌리티",
+    list: [
+      {
+        title: "우아한형제들",
+        link: "https://techblog.woowahan.com/",
+      },
+      {
+        title: "쏘카",
+        link: "https://tech.socarcorp.kr/",
+      },
+      {
+        title: "요기요",
+        link: "https://techblog.yogiyo.co.kr/",
+      },
+      {
+        title: "현대자동차",
+        link: "https://42dot.ai/blog",
+      },
+      {
+        title: "그랩",
+        link: "https://engineering.grab.com/",
+      },
+    ],
+  },
+
+  {
+    topic: "숙박",
+    list: [
+      {
+        title: "직방",
+        link: "https://medium.com/zigbang",
+      },
+      {
+        title: "여기어때",
+        link: "https://techblog.gccompany.co.kr/",
+      },
+      {
+        title: "에어비앤비",
+        link: "https://medium.com/airbnb-engineering",
+      },
+    ],
+  },
+  {
+    topic: "HR",
+    list: [
+      {
+        title: "원티드",
+        link: "https://medium.com/wantedjobs",
+      },
+      {
+        title: "사람인",
+        link: "https://saramin.github.io/",
+      },
+      {
+        title: "크몽",
+        link: "https://blog.kmong.com/tech/home",
+      },
+      {
+        title: "링크드인",
+        link: "https://www.linkedin.com/blog/engineering",
+      },
+    ],
+  },
+  {
+    topic: "게임",
+    list: [
+      {
+        title: "넷마블",
+        link: "https://netmarble.engineering/",
+      },
+      {
+        title: "넥슨",
+        link: "https://www.intelligencelabs.tech/",
+      },
+      {
+        title: "데브시스터즈",
+        link: "https://tech.devsisters.com/",
+      },
+      {
+        title: "구글플레이",
+        link: "https://medium.com/googleplaydev",
+      },
+    ],
+  },
+  {
+    topic: "뷰티-패션",
+    list: [
+      {
+        title: "올리브영",
+        link: "https://oliveyoung.tech/",
+      },
+      {
+        title: "화해",
+        link: "https://blog.hwahae.co.kr/category/all/tech",
+      },
+      {
+        title: "무신사",
+        link: "https://medium.com/musinsa-tech",
+      },
+      {
+        title: "29CM",
+        link: "https://medium.com/29cm",
+      },
+      {
+        title: "카카오스타일",
+        link: "https://devblog.kakaostyle.com/ko/",
+      },
+      {
+        title: "브랜디",
+        link: "https://labs.brandi.co.kr//",
+      },
+    ],
+  },
+  {
+    topic: "미디어",
+    list: [
+      {
+        title: "리디",
+        link: "https://ridicorp.com/story-category/tech-blog/",
+      },
+      {
+        title: "왓챠",
+        link: "https://medium.com/watcha",
+      },
+      {
+        title: "티빙",
+        link: "https://medium.com/tving-team",
+      },
+      {
+        title: "넷플릭스",
+        link: "https://netflixtechblog.com/",
+      },
+      {
+        title: "스포티파이",
+        link: "https://engineering.atspotify.com/",
+      },
+      {
+        title: "핀터레스트",
+        link: "https://medium.com/@Pinterest_Engineering",
+      },
+    ],
+  },
+  {
+    topic: "데이터-통신",
+    list: [
+      {
+        title: "SK 데보션",
+        link: "https://devocean.sk.com/blog/sub/index.do?ID=&searchData=&page=&subIndex=%EC%B5%9C%EC%8B%A0+%EA%B8%B0%EC%88%A0+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+      },
+      {
+        title: "카카오 엔터프라이즈",
+        link: "https://tech.kakaoenterprise.com/",
+      },
+      {
+        title: "NHN Cloud",
+        link: "https://meetup.nhncloud.com/",
+      },
+      {
+        title: "모두싸인",
+        link: "https://team.modusign.co.kr/tagged/engineering",
+      },
+      {
+        title: "마이크로소프트",
+        link: "https://techcommunity.microsoft.com/",
+      },
+      {
+        title: "드롭박스",
+        link: "https://dropbox.tech/",
+      },
+      {
+        title: "줌",
+        link: "https://medium.com/zoom-developer-blog",
+      },
+      {
+        title: "애플",
+        link: "https://developer.apple.com/",
+      },
+      {
+        title: "깃허브",
+        link: "https://github.blog/",
       },
     ],
   },
