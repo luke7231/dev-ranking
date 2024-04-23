@@ -3,8 +3,11 @@ import { ContentsData, techBlogs } from "./lib/data";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-4xl font-mono text-sm grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10">
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <header className="w-full max-w-4xl py-4">
+        <Image alt="logo" src={"/logo.png"} width={132} height={74.25} />
+      </header>
+      <div className="z-10 w-full max-w-4xl font-mono text-sm grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10 py-10">
         {ContentsData.map((block, index) => {
           return (
             <div key={index}>
