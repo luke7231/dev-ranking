@@ -9,12 +9,14 @@ interface Data {
   title: string;
   contents: contents[];
   img?: string;
+  link?: string;
 }
 
 export const ContentsData: Data[] = [
   {
     title: "Careerly TOP5 (Weekly)",
     img: "/careerly.png",
+    link: "https://careerly.co.kr/",
     contents: [
       {
         rank: 1,
@@ -46,6 +48,7 @@ export const ContentsData: Data[] = [
   {
     title: "HakerNews TOP5",
     img: "/y-combinator.png",
+    link: "https://news.ycombinator.com/",
     contents: [
       {
         rank: 1,
@@ -78,6 +81,7 @@ export const ContentsData: Data[] = [
   {
     title: "GeekNews TOP5",
     img: "/geeknews.png",
+    link: "https://news.hada.io/",
     contents: [
       {
         rank: 1,
@@ -110,6 +114,7 @@ export const ContentsData: Data[] = [
   {
     title: "Trending product TOP5 (국내)",
     img: "/disquiet.jpeg",
+    link: "https://disquiet.io/",
     contents: [
       {
         rank: 1,
@@ -146,6 +151,7 @@ export const ContentsData: Data[] = [
   {
     title: "Careerly Top5 (Monthly)",
     img: "/careerly.png",
+    link: "https://careerly.co.kr/",
     contents: [
       {
         rank: 1,
@@ -177,6 +183,7 @@ export const ContentsData: Data[] = [
   {
     title: "Trending Product TOP5 (글로벌)",
     img: "/product-hunt.png",
+    link: "https://www.producthunt.com/",
     contents: [
       {
         rank: 1,

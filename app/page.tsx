@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ContentsData, techBlogs } from "./lib/data";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,13 +14,15 @@ export default function Home() {
             <div key={index}>
               <div className="flex items-end">
                 {block.img ? (
-                  <Image
-                    alt="logo of topic"
-                    src={block.img}
-                    width={48}
-                    height={48}
-                    className="rounded-sm"
-                  />
+                  <Link href={block.link || ""}>
+                    <Image
+                      alt="logo of topic"
+                      src={block.img}
+                      width={48}
+                      height={48}
+                      className="rounded-sm"
+                    />
+                  </Link>
                 ) : null}
                 <div className="font-bold text-lg ml-2">{block.title}</div>
               </div>
@@ -29,7 +32,7 @@ export default function Home() {
                 {block.contents.map((content, index) => {
                   return (
                     <div key={index} className="mb-1">
-                      <a href={content.link}>
+                      <Link href={content.link}>
                         <span className="text-base">{content.rank}. </span>
                         <span>{content.title}</span>
                         {content.icon ? (
@@ -41,7 +44,7 @@ export default function Home() {
                             className="inline rounded-md ml-2 mb-1"
                           />
                         ) : null}
-                      </a>
+                      </Link>
                     </div>
                   );
                 })}
