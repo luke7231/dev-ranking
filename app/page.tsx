@@ -11,16 +11,19 @@ export default function Home() {
         {ContentsData.map((block, index) => {
           return (
             <div key={index}>
-              {block.img ? (
-                <Image
-                  alt="logo of topic"
-                  src={block.img}
-                  width={48}
-                  height={48}
-                  className="mb-1 rounded-sm"
-                />
-              ) : null}
-              <div className="font-bold text-lg">{block.title}</div>
+              <div className="flex items-end">
+                {block.img ? (
+                  <Image
+                    alt="logo of topic"
+                    src={block.img}
+                    width={48}
+                    height={48}
+                    className="rounded-sm"
+                  />
+                ) : null}
+                <div className="font-bold text-lg ml-2">{block.title}</div>
+              </div>
+
               <div className="h-[1px] bg-gray-700 mb-2" />
               <div>
                 {block.contents.map((content, index) => {
@@ -48,10 +51,10 @@ export default function Home() {
         })}
       </div>
       <div className="flex flex-col w-full max-w-4xl mt-16">
-        <span className="font-bold text-lg border border-gray-500 pl-2 py-2 mb-6">
+        <span className="font-bold text-lg border border-gray-500 pl-2 py-2 mb-6 bg-black text-white">
           TECH BLOGS
         </span>
-        <div className="flex flex-wrap gap-x-10 gap-y-6 pl-2 ">
+        <div className="flex flex-wrap gap-x-10 gap-y-6 pl-2">
           {techBlogs.map((blog, index) => {
             return (
               <div key={index}>
