@@ -3,7 +3,7 @@ import { ContentsData, techBlogs } from "./lib/data";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center justify-between px-4 lg:px-0">
       <header className="w-full max-w-4xl py-4">
         <Image alt="logo" src={"/logo.png"} width={132} height={74.25} />
       </header>
@@ -11,6 +11,15 @@ export default function Home() {
         {ContentsData.map((block, index) => {
           return (
             <div key={index}>
+              {block.img ? (
+                <Image
+                  alt="logo of topic"
+                  src={block.img}
+                  width={48}
+                  height={48}
+                  className="mb-1 rounded-sm"
+                />
+              ) : null}
               <div className="font-bold text-lg">{block.title}</div>
               <div className="h-[1px] bg-gray-700 mb-2" />
               <div>
