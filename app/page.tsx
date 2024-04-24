@@ -56,7 +56,7 @@ export default function Home() {
           );
         })}
       </div>
-      <div className="flex flex-col w-full max-w-4xl mt-16">
+      <div className="flex flex-col w-full max-w-4xl mt-16 mb-12">
         <span className="font-bold text-lg border border-gray-500 pl-2 py-2 mb-6 bg-black text-white">
           TECH BLOGS
         </span>
