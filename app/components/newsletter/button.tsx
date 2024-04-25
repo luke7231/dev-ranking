@@ -21,7 +21,7 @@ const NewsLetterSubmit = () => {
         />
         <button
           type="submit"
-          className="p-3 bg-gray-900 text-[#fff] rounded-lg"
+          className="p-3 bg-gray-900 text-[#fff] rounded-lg mt-2 sm:mt-0"
         >
           submit
         </button>
