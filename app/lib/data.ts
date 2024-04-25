@@ -20,7 +20,7 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
-        title: "[책] 개발자 기술 면접 노트",
+        title: "bla bla",
         link: "https://careerly.co.kr/comments/103098",
       },
       {
