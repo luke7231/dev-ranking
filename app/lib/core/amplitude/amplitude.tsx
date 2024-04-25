@@ -4,7 +4,11 @@ import { init, track } from "@amplitude/analytics-browser";
 
 const AMPLITUDE_API_KEY = process.env.NEXT_PUBLIC_AMPLITUDE_API_KEY;
 
-export const AmplitudeContext = createContext({});
+interface Context {
+  trackAmplitudeEvent: (evenName: string, eventProperties: any) => void;
+}
+
+export const AmplitudeContext = createContext<Context>({} as Context);
 
 const AmplitudeContextProvider = ({
   children,
