@@ -70,10 +70,10 @@ export default function Home() {
           <br />
           <div className="pl-4">
             [추가 정보]
-            <h3>∙ 주기: 요일별 5회 발행 (총20-25회)</h3>
-            <h3>∙ 분량: 10분 집중할 수 있는 양으로</h3>
-            <h3>∙ 가격: 월 15,000원 ~ 18,000원</h3>
-            <h4 className="text-sm text-gray-400 pl-4">(*가격 책정중)</h4>
+            <h3 className="mb-1">∙ 주기: 요일별 5회 발행 (총20-25회)</h3>
+            <h3 className="mb-1">∙ 분량: 10분 집중할 수 있는 양으로</h3>
+            <h3 className="mb-0">∙ 가격: 월 15,000원 ~ 18,000원</h3>
+            <h4 className="mb-1 text-sm text-gray-400 pl-4">(*가격 책정중)</h4>
             <h3 className="mb-4">∙ 사전예약혜택: 첫 달 결제 50% 할인</h3>
           </div>
         </div>
