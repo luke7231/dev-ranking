@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import NewsLetterSubmit from "../components/newsletter/button";
 
 export default function Home() {
   return (
@@ -12,12 +13,7 @@ export default function Home() {
       <div className="z-10 w-full max-w-4xl font-mono py-6">
         <div className="w-full bg-gray-300 h-[1px] my-2 mb-6"></div>
         <h3 className="mb-4">유료 뉴스레터 런칭 전 사전예약을 받습니다.</h3>
-        <input
-          type="email"
-          className="p-3 rounded-lg mr-4"
-          placeholder="이메일"
-        />
-        <button>submit</button>
+        <NewsLetterSubmit />
         <div className="w-full bg-gray-300 h-[1px] my-2 mt-8"></div>
         <div className="mt-12">
           <h2 className="mb-4 text-2xl font-bold">이런 한 분을 찾습니다</h2>
