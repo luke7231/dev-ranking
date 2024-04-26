@@ -37,7 +37,7 @@ export default function Page({ params: { group } }: Props) {
                 </Link>
               ) : null}
             </div>
-            <div className="h-[1px] w-[780px] bg-gray-700 mb-2" />
+            <div className="h-[1px] max-w-[780px] bg-gray-700 mb-2" />
           </div>
           <div className="flex flex-col items-center">
             <div className="mt-4">
