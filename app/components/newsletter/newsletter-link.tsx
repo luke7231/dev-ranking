@@ -13,7 +13,7 @@ const NewsletterLink = () => {
   };
   return (
     <Link href={"/newsletter"} onClick={clickHandler}>
-      <span className="text-md font-bold">뉴스레터 신청</span>
+      <span className="text-md">정기 뉴스레터 신청</span>
     </Link>
   );
 };
