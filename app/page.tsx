@@ -27,11 +27,16 @@ export default function Home() {
                   </Link>
                 ) : null}
                 <div className="font-bold text-lg ml-2">{block.title}</div>
+                {block.contents.length > 5 ? (
+                  <Link href={`/${block.key}`}>
+                    <div className="p-1 underline ml-2">더보기</div>
+                  </Link>
+                ) : null}
               </div>
 
               <div className="h-[1px] bg-gray-700 mb-2" />
               <div>
-                {block.contents.map((content, index) => {
+                {block.contents.slice(0, 5).map((content, index) => {
                   return (
                     <div key={index} className="mb-1">
                       <Link href={content.link}>
