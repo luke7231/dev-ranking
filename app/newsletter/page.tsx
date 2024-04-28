@@ -27,39 +27,53 @@ export default function Home() {
 
         <div className="mt-16">
           <h2 className="text-2xl font-bold">뉴스레터는 이러합니다</h2>
-          <div className="pl-6 pt-4">
-            <h3>∙ 월요일: DEV RANKING 내 베스트 콘텐츠 요약 및 정리본 제공</h3>
-            <h4 className="text-sm text-gray-400 pl-4">
-              *(해커뉴스, 긱뉴스, 커리어리, EO, Back-end, Front-end)
-            </h4>
-            <h4 className="text-sm text-gray-400 pl-4">
-              *(PDF or Notion파일 제공)
-            </h4>
+          <div className="pl-0 pt-4">
+            <div className="p-4 bg-[#fff]">
+              <h3>
+                ∙ 월요일: DEV RANKING 내 베스트 콘텐츠 요약 및 정리본 제공
+              </h3>
+              <h4 className="text-sm text-gray-400 pl-4">
+                *(해커뉴스, 긱뉴스, 커리어리, EO, Back-end, Front-end)
+              </h4>
+              <h4 className="text-sm text-gray-400 pl-4">
+                *(PDF or Notion파일 제공)
+              </h4>
+            </div>
             <br />
 
-            <h3>∙ 화요일: 실리콘밸리 테크 블로그 수번역-핵심 요약</h3>
-            <h4 className="text-sm text-gray-400 pl-4">
-              *(신규 콘텐츠위주, 콘텐츠 없는 주에는 기존 출간된 콘텐츠로 제공)
-            </h4>
+            <div className="p-4 bg-[#fff]">
+              <h3>∙ 화요일: 실리콘밸리 테크 블로그 수번역-핵심 요약</h3>
+              <h4 className="text-sm text-gray-400 pl-4">
+                *(신규 콘텐츠위주, 콘텐츠 없는 주에는 기존 출간된 콘텐츠로 제공)
+              </h4>
+            </div>
             <br />
 
-            <h3>∙ 수요일: TECH 저널리즘 수번역-핵심 요약</h3>
-            <h4 className="text-sm text-gray-400 pl-4">
-              (TechCrunch, TheNextWeb, Wired, FirstPost, GizModo etc..){" "}
-            </h4>
+            <div className="p-4 bg-[#fff]">
+              <h3>∙ 수요일: TECH 저널리즘 수번역-핵심 요약</h3>
+              <h4 className="text-sm text-gray-400 pl-4">
+                (TechCrunch, TheNextWeb, Wired, FirstPost, GizModo etc..){" "}
+              </h4>
+            </div>
             <br />
 
-            <h3>
-              ∙ 목요일: 국내 TOP 티어 테크 블로그 신규 콘텐츠 알림 및 핵심 요약
-            </h3>
-            <br />
+            <div className="p-4 bg-[#fff]">
+              <h3>
+                ∙ 목요일: 국내 TOP 티어 테크 블로그 신규 콘텐츠 알림 및 핵심
+                요약
+              </h3>
+            </div>
             <br />
 
-            <h3>∙ 금요일: 위클리 트렌드 프로덕트 분석</h3>
-            <h4 className="text-sm text-gray-400 pl-4">
-              (disquiet, product hunt)
-            </h4>
-            <h3 className="pl-4">+ 스타트업 동향(시장, 투자) 흐름 정리 제공</h3>
+            <div className="p-4 bg-[#fff]">
+              <h3>∙ 금요일: 위클리 트렌드 프로덕트 분석</h3>
+              <h4 className="text-sm text-gray-400 pl-4">
+                (disquiet, product hunt)
+              </h4>
+              <h3 className="pl-4">
+                + 스타트업 동향(시장, 투자) 흐름 정리 제공
+              </h3>
+            </div>
             <br />
 
             <h3 className="pt-3">
