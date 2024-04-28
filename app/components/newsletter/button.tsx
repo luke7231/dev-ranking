@@ -1,6 +1,7 @@
 "use client";
 
 import { addEmail } from "@/app/lib/action";
+import useAmplitudeContext from "@/app/lib/core/amplitude/use-amplitude-context";
 import { useFormState } from "react-dom";
 
 const NewsLetterSubmit = () => {
@@ -9,6 +10,12 @@ const NewsLetterSubmit = () => {
     message: "",
   };
   const [state, formAction] = useFormState(addEmail, initialState);
+
+  const { trackAmplitudeEvent } = useAmplitudeContext();
+  const log = (obj: any) => {
+    trackAmplitudeEvent("submit", obj);
+  };
+  console.log(state);
   return (
     <div>
       <form action={formAction}>
@@ -22,6 +29,7 @@ const NewsLetterSubmit = () => {
         <button
           type="submit"
           className="p-3 bg-gray-900 text-[#fff] rounded-lg mt-2 sm:mt-0"
+          onClick={() => log({ what: "newsletter apply" })}
         >
           submit
         </button>
