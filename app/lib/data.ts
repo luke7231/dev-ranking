@@ -73,8 +73,8 @@ export const ContentsData: Data[] = [
     ],
   },
   {
-    key: "hakerNews",
-    title: "HakerNews TOP5",
+    key: "hackerNews",
+    title: "HackerNews TOP5",
     img: "/y-combinator.png",
     link: "https://news.ycombinator.com/",
     contents: [
