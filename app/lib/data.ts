@@ -654,8 +654,8 @@ export const ContentsData: Data[] = [
         link: "https://blog.gangnamunni.com/post/saas-event-sourcing/",
       },
       {
-        title: "[신청 시작] 4월 우아한테크세미나: Java의 미래, Virtual Thread",
-        link: "https://techblog.woowahan.com/17163/?utm_source=oneoneone",
+        title: "인프랩 CTO가 말하는 결제 개발 A to Z",
+        link: "https://velog.io/@tosspayments/%EC%9D%B8%ED%94%84%EB%9E%A9-CTO%EA%B0%80-%EB%A7%90%ED%95%98%EB%8A%94-%EA%B2%B0%EC%A0%9C-%EA%B0%9C%EB%B0%9C-A-to-Z",
       },
       {
         title: "개발자를 잠 못 들게 만드는 코드",
