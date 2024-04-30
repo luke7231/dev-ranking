@@ -12,7 +12,7 @@ export default function Home() {
       </header>
       <div className="z-10 w-full max-w-4xl font-mono py-6">
         <div className="w-full bg-gray-300 h-[1px] my-2 mb-6"></div>
-        <h3 className="mb-4">유료 구독형 뉴스레터 사전예약을 받습니다.</h3>
+        <h3 className="mb-4">뉴스레터 사전예약을 받습니다.</h3>
         <NewsLetterSubmit />
         <div className="w-full bg-gray-300 h-[1px] my-2 mt-8"></div>
         <div className="mt-12">
@@ -86,7 +86,9 @@ export default function Home() {
             [추가 정보]
             <h3 className="mb-1">∙ 주기: 요일별 5회 발행 (총20-25회)</h3>
             <h3 className="mb-1">∙ 분량: 10분 집중할 수 있는 양으로</h3>
-            <h3 className="mb-0">∙ 가격: 월 15,000원 ~ 18,000원</h3>
+            <h3 className="mb-0 text-red-600">
+              ∙ 가격: 월 15,000원 ~ 18,000원
+            </h3>
             <h4 className="mb-1 text-sm text-gray-400 pl-4">(*가격 책정중)</h4>
             <h3 className="mb-4">∙ 사전예약혜택: 첫 달 결제 50% 할인</h3>
           </div>
