@@ -29,7 +29,9 @@ const Contents = () => {
                     className="rounded-sm"
                   />
                 </Link>
-              ) : null}
+              ) : (
+                <span className="h-[48px]"></span>
+              )}
               <div className="font-bold text-lg ml-2">{block.title}</div>
               {block.contents.length > 5 ? (
                 <Link
