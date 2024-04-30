@@ -12,7 +12,7 @@ export default function Home() {
       </header>
       <div className="z-10 w-full max-w-4xl font-mono py-6">
         <div className="w-full bg-gray-300 h-[1px] my-2 mb-6"></div>
-        <h3 className="mb-4">뉴스레터 사전예약을 받습니다.</h3>
+        <h3 className="mb-4">유료 구독형 뉴스레터 사전예약을 받습니다.</h3>
         <NewsLetterSubmit />
         <div className="w-full bg-gray-300 h-[1px] my-2 mt-8"></div>
         <div className="mt-12">
