@@ -47,27 +47,27 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 6,
-        title: "뽑지말아야할 CTO, 뽑아야할 CTO",
+        title: "",
         link: "https://careerly.co.kr/comments/103552",
       },
       {
         rank: 7,
-        title: "좋은 개발자가 알아야하는 9가지 포인트들 - 4. 문제 정의 잘하기",
+        title: "",
         link: "https://careerly.co.kr/comments/103501",
       },
       {
         rank: 8,
-        title: "클린 코드와 비즈니스 임팩트",
+        title: "",
         link: "https://careerly.co.kr/comments/103381",
       },
       {
         rank: 9,
-        title: "현대적인 JavaScript 한글 라이브러리, es-hangul",
+        title: "",
         link: "https://careerly.co.kr/comments/103361",
       },
       {
         rank: 10,
-        title: "[다음 분기에 5개월 일하기 vs 지금 5시간 논의하기]",
+        title: "",
         link: "https://careerly.co.kr/comments/103491",
       },
     ],
@@ -126,22 +126,22 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 10,
-        title: "영향력 있는 개발자 되기: ‘테오의 프론트엔드’ 유용태 개발자",
+        title: "",
         link: "https://yozm.wishket.com/magazine/detail/2521/",
       },
       {
         rank: 11,
-        title: "프론트엔드 개발자는 서비스 말고 ‘운영툴’도 만듭니다",
+        title: "",
         link: "https://yozm.wishket.com/magazine/detail/2519/",
       },
       {
         rank: 12,
-        title: "메모 앱 시장 뒤흔든 '옵시디언' 장단점 파헤치기",
+        title: "",
         link: "https://yozm.wishket.com/magazine/detail/2518/",
       },
       {
         rank: 13,
-        title: "‘요즘 뜨는’ 메모 앱, 옵시디언을 아세요?",
+        title: "",
         link: "https://yozm.wishket.com/magazine/detail/2517/",
       },
     ],
@@ -154,170 +154,167 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
-        title: "Why SQLite Uses Bytecode (sqlite.org)",
-        link: "https://sqlite.org/draft/whybytecode.html",
+        title: "Printing Music with CSS Grid (cruncher.ch)",
+        link: "https://cruncher.ch/blog/printing-music-with-css-grid/",
       },
       {
         rank: 2,
-        title:
-          "Deep Dive into XZ Utils Backdoor – Columbia Engineering Guest Lecture [video] (youtube.com)",
-        link: "https://www.youtube.com/watch?v=Q6ovtLdSbEA",
+        title: "Pyinfra: Automate Infrastructure Using Python (pyinfra.com)",
+        link: "https://pyinfra.com/",
       },
       {
         rank: 3,
-        title: "Hitting every branch on the way down (rachelbythebay.com)",
-        link: "http://rachelbythebay.com/w/2024/04/29/pb/",
+        title: "The File Filesystem (2021) (mgree.github.io)",
+        link: "https://mgree.github.io/ffs/",
       },
       {
         rank: 4,
-        title: "Nintendo(1) (9front.org)",
-        link: "http://man.9front.org/1/nintendo",
+        title:
+          "Level of Gaussians: Real-Time View Synthesis for Millions of Square Meters (zju3dv.github.io)",
+        link: "https://zju3dv.github.io/LoG_webpage/",
       },
       {
         rank: 5,
-        title: "Only9Fans (only9fans.com)",
-        link: "https://only9fans.com/",
+        title:
+          "Borgo is a statically typed language that compiles to Go (github.com/borgo-lang)",
+        link: "https://github.com/borgo-lang/borgo",
       },
       {
         rank: 6,
         title:
-          "Show HN: 3D framework for the web, built on Svelte and Three.js (threlte.xyz)",
-        link: "https://threlte.xyz/",
+          "Run0, a systemd based alternative to sudo, announced (mastodon.social)",
+        link: "https://mastodon.social/@pid_eins/112353324518585654",
       },
       {
         rank: 7,
         title:
-          "Apple must open iPadOS to sideloading within 6 months, EU says (arstechnica.com)",
-        link: "https://arstechnica.com/apple/2024/04/apple-must-open-ipados-to-sideloading-within-6-months-eu-says/",
+          "Show HN: I made a CLI tool to create web extensions with no build configuration (github.com/cezaraugusto)",
+        link: "https://github.com/cezaraugusto/extension.js",
       },
       {
         rank: 8,
         title:
-          "TypeSpec: A new language for API-centric development (typespec.io)",
-        link: "https://typespec.io/blog/2024-04-25-introducing",
+          "Alice's adventures in a differentiable wonderland (sscardapane.it)",
+        link: "https://www.sscardapane.it/alice-book",
       },
       {
         rank: 9,
         title:
-          "TL;DR AI are better community-written abstracts for research papers (tldr-ai.org)",
-        link: "https://www.tldr-ai.org/",
+          "Google workers fired for protesting Israeli contract file NLRB complaint (theverge.com)",
+        link: "https://www.theverge.com/2024/4/30/24145680/google-workers-fired-project-nimbus-protest-nlrb-complaint",
       },
       {
         rank: 10,
-        title:
-          "Codapi – Interactive code examples for documentation, education and fun (github.com/nalgeon)",
-        link: "https://github.com/nalgeon/codapi",
+        title: "Arti: A Tor Implementation in Rust (torproject.net)",
+        link: "https://tpo.pages.torproject.net/core/arti/",
       },
       {
         rank: 11,
-        title:
-          "Webb captures iconic Horsehead Nebula in unprecedented detail (esa.int)",
-        link: "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_captures_iconic_Horsehead_Nebula_in_unprecedented_detail",
+        title: "The IMEI Code: Your phone’s other number (tedium.co)",
+        link: "https://tedium.co/2024/04/27/mobile-phone-imei-number-history/",
       },
       {
         rank: 12,
-        title: "Life and Land in Anglo-Saxon England (historytoday.com)",
-        link: "https://www.historytoday.com/archive/out-margins/life-and-land-anglo-saxon-england",
+        title:
+          "FridgeLock: Preventing Data Theft on Suspended Linux with Memory Encryption (tum.de)",
+        link: "https://www.sec.in.tum.de/i20/publications/fridgelock-preventing-data-theft-on-suspended-linux-with-usable-memory-encryption",
       },
       {
         rank: 13,
         title:
-          "Malleable Software in the Age of LLMs (2023) (geoffreylitt.com)",
-        link: "https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming",
+          "RankScience (YC W17) is hiring to supercharge SEO for startups (remotejobs.org)",
+        link: "https://remotejobs.org/companies/rankscience-remote-jobs",
       },
       {
         rank: 14,
-        title: "Exploit.education (exploit.education)",
-        link: "https://exploit.education/",
+        title: "Show HN: I Built a Java IDE for iPad (apps.apple.com)",
+        link: "https://apps.apple.com/de/app/codebrew-ide-for-java/id6475267297?l=en-GB",
       },
       {
         rank: 15,
-        title: "How to Write Computer Programs (2015) [pdf] (dyalog.com)",
-        link: "https://www.dyalog.com/uploads/documents/Papers/declarative_prog.pdf",
+        title:
+          "Rama is a testament to the power of Clojure (redplanetlabs.com)",
+        link: "https://blog.redplanetlabs.com/2024/04/30/rama-is-a-testament-to-the-power-of-clojure/",
       },
       {
         rank: 16,
-        title:
-          "Tougher rules for sellers of internet-enabled devices in the UK (bbc.co.uk)",
-        link: "https://www.bbc.co.uk/news/business-68917837",
+        title: "Pydantic Logfire (pydantic.dev)",
+        link: "https://pydantic.dev/logfire",
       },
       {
         rank: 17,
         title:
-          "Systemd Wants to Expand to Include a Sudo Replacement (fosspost.org)",
-        link: "https://outpost.fosspost.org/d/19-systemd-wants-to-expand-to-include-a-sudo-replacement",
+          "US drug control agency will move to reclassify marijuana (apnews.com)",
+        link: "https://apnews.com/article/marijuana-biden-dea-criminal-justice-pot-f833a8dae6ceb31a8658a5d65832a3b8",
       },
       {
         rank: 18,
-        title:
-          "P vs. NP and the Computational Complexity Zoo (2014) [video] (youtube.com)",
-        link: "https://www.youtube.com/watch?v=YX40hbAHx3s",
+        title: "Quacker News (quackernews.com)",
+        link: "http://quackernews.com/",
       },
       {
         rank: 19,
-        title: "You can't just assume UTF-8 (csvbase.com)",
-        link: "https://csvbase.com/blog/9",
+        title: "Enzymes open new path to universal donor blood (dtu.dk)",
+        link: "https://www.dtu.dk/english/newsarchive/2024/04/enzymes-open-new-path-to-universal-donor-blood",
       },
       {
         rank: 20,
-        title:
-          "On-demand nutrient production system for long-duration space missions (phys.org)",
-        link: "https://phys.org/news/2024-04-demand-nutrient-production-duration-space.html",
+        title: "Calendar types in watches (arslan.io)",
+        link: "https://arslan.io/2024/04/29/calendar-types-in-watches/",
       },
       {
         rank: 21,
-        title: "A few facts about POSIX (vorakl.com)",
-        link: "https://vorakl.com/articles/posix/",
+        title: "How ECMO is redefining death (newyorker.com)",
+        link: "https://www.newyorker.com/science/annals-of-medicine/how-ecmo-is-redefining-death",
       },
       {
         rank: 22,
         title:
-          "OneText (YC W23) Is Hiring a Lead UX Engineer (gist.github.com)",
-        link: "https://gist.github.com/bluepnume/33f2c4be93cc20215aafd55f803de19f",
+          "Show HN: Polytomic Connect – API for two-way ETL and data syncs with customers",
+        link: "https://news.ycombinator.com/item?id=40213570",
       },
       {
         rank: 23,
-        title: "I Built an Ld_preload Worm (lcamtuf.substack.com)",
-        link: "https://lcamtuf.substack.com/p/that-time-i-built-an-ld_preload-worm",
+        title:
+          "Xbox 360 marketplace will stop accepting purchases per July 29th (xbox.com)",
+        link: "https://support.xbox.com/help/xbox-360/store/xbox-360-marketplace-update",
       },
       {
         rank: 24,
-        title: "FC8 – Faster 68K Decompression (2016) (bigmessowires.com)",
-        link: "https://www.bigmessowires.com/2016/05/06/fc8-faster-68k-decompression/",
+        title: "General Motors Streetcar Conspiracy (wikipedia.org)",
+        link: "https://en.wikipedia.org/wiki/General_Motors_streetcar_conspiracy",
       },
       {
         rank: 25,
-        title:
-          "Meter-scale distance manipulation of diverse objects with jet-induced airflow (wiley.com)",
-        link: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202400174",
+        title: "Tour of CLIPS (2022) (ryjo.codes)",
+        link: "https://ryjo.codes/tour-of-clips.html",
       },
       {
         rank: 26,
         title:
-          "Electromigration Concerns Grow in Advanced Packages (semiengineering.com)",
-        link: "https://semiengineering.com/electromigration-concerns-grow-in-advanced-packages/",
+          "Starbucks shares sink 8% as same-store sales fall, quarterly results miss (cnbc.com)",
+        link: "https://www.cnbc.com/2024/04/30/starbucks-sbux-earnings-q2-2024.html",
       },
       {
         rank: 27,
-        title:
-          "Haunting Sounds from the Largest Living Thing (sciencealert.com)",
-        link: "https://www.sciencealert.com/haunting-sounds-made-from-the-worlds-largest-living-thing-recorded",
+        title: "Good enough is good enough (2013) (europython.eu)",
+        link: "https://ep2013.europython.eu/conference/talks/good-enough-is-good-enough",
       },
       {
         rank: 28,
-        title: "I made a new backplane for my consumer NAS (codedbearder.com)",
-        link: "https://codedbearder.com/posts/f3-backplane/",
+        title: "Crash-only software: More than meets the eye (2006) (lwn.net)",
+        link: "https://lwn.net/Articles/191059/",
       },
       {
         rank: 29,
-        title:
-          "Show HN: I made a privacy friendly and simple app to track my menstruation (play.google.com)",
-        link: "https://play.google.com/store/apps/details?id=earlyowlsoftware.justme.justme&hl=en_US",
+        title: "Run llama3 locally with 1M token context (ollama.com)",
+        link: "https://ollama.com/library/llama3-gradient",
       },
       {
         rank: 30,
-        title: "The Pen, Mightier (themillions.com)",
-        link: "https://themillions.com/2011/02/the-pen-mightier.html",
+        title:
+          "Rabbit R1, a thing that should just be an app, is just an Android app (androidauthority.com)",
+        link: "https://www.androidauthority.com/rabbit-r1-is-an-android-app-3438805/",
       },
     ],
   },
@@ -339,8 +336,9 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 3,
-        title: "GN⁺: 실수로 아이슬란드 대통령 출마 사태 (uxdesign.cc)",
-        link: "https://uxdesign.cc/how-do-you-accidentally-run-for-president-of-iceland-0d71a4785a1e",
+        title:
+          "OpenVoice v2 - 다재다능한 인스턴트 음성 복제 (github.com/myshell-ai)",
+        link: "https://github.com/myshell-ai/OpenVoice",
       },
       {
         rank: 4,
@@ -350,42 +348,41 @@ export const ContentsData: Data[] = [
       {
         rank: 5,
         title:
-          "GN⁺: Ozempic, 담배ㆍ제과ㆍ주류 산업 위협하는 게임 체인저 (curingaddiction.substack.com)",
-        link: "https://curingaddiction.substack.com/p/growing-concerns-that-ozempic-will",
-      },
-      {
-        rank: 6,
-        title:
           "2024년 AI 스타트업을 위한 데이터 수집 전략 (press.airstreet.com)",
         link: "https://press.airstreet.com/p/data-acquisition-strategies-for-ai",
       },
       {
-        rank: 7,
-        title:
-          "OpenVoice v2 - 다재다능한 인스턴트 음성 복제 (github.com/myshell-ai)",
-        link: "https://github.com/myshell-ai/OpenVoice",
-      },
-      {
-        rank: 8,
+        rank: 6,
         title:
           "Show GN: 개발자라면 알고 있으면 좋을 사이트 (dev-ranking.vercel.app)",
         link: "https://news.hada.io/topic?id=14558",
       },
       {
-        rank: 9,
-        title: "Mise - 다중언어(Polyglot) 버전 관리자 (mise.jdx.dev)",
-        link: "https://mise.jdx.dev/",
+        rank: 7,
+        title: "GN⁺: 실수로 아이슬란드 대통령 출마 사태 (uxdesign.cc)",
+        link: "https://uxdesign.cc/how-do-you-accidentally-run-for-president-of-iceland-0d71a4785a1e",
       },
       {
-        rank: 10,
+        rank: 8,
         title: "GN⁺: LLM이 결코 할 수 없는 것 (strangeloopcanon.com)",
         link: "https://www.strangeloopcanon.com/p/what-can-llms-never-do",
       },
       {
+        rank: 9,
+        title:
+          "GN⁺: Ozempic, 담배ㆍ제과ㆍ주류 산업 위협하는 게임 체인저 (curingaddiction.substack.com)",
+        link: "https://curingaddiction.substack.com/p/growing-concerns-that-ozempic-will",
+      },
+      {
+        rank: 10,
+        title: "좋아하는 Tech 유튜버가 있나요? (lobste.rs)",
+        link: "https://lobste.rs/s/krkuc9/who_are_your_favorite_tech_youtubers",
+      },
+      {
         rank: 11,
         title:
-          "Ollama v0.1.33 - Llama 3 + Phi 3 + Qwen 110B 지원 (github.com/ollama)",
-        link: "https://github.com/ollama/ollama/releases/tag/v0.1.33-rc5",
+          "GN⁺: 읽은 내용이 당신을 만든다, 기억하지 못한다 해도 (blog.jim-nielsen.com)",
+        link: "https://blog.jim-nielsen.com/2024/you-are-what-you-read/",
       },
       {
         rank: 12,
@@ -394,8 +391,9 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 13,
-        title: "좋아하는 Tech 유튜버가 있나요? (lobste.rs)",
-        link: "https://lobste.rs/s/krkuc9/who_are_your_favorite_tech_youtubers",
+        title:
+          "구글이 더 저렴한 인건비를 위해 자체 파이썬 팀을 해고 (reddit.com)",
+        link: "https://www.reddit.com/r/cscareerquestions/comments/1cf7kgo/google_just_laid_off_its_entire_python_team/",
       },
       {
         rank: 14,
@@ -406,36 +404,34 @@ export const ContentsData: Data[] = [
       {
         rank: 15,
         title:
-          "구글이 더 저렴한 인건비를 위해 자체 파이썬 팀을 해고 (reddit.com)",
-        link: "https://www.reddit.com/r/cscareerquestions/comments/1cf7kgo/google_just_laid_off_its_entire_python_team/",
+          "Ollama v0.1.33 - Llama 3 + Phi 3 + Qwen 110B 지원 (github.com/ollama)",
+        link: "https://github.com/ollama/ollama/releases/tag/v0.1.33-rc5",
       },
       {
         rank: 16,
-        title:
-          "[2024/04/22 ~ 04/28] 이번 주의 주요 ML 논문 (Top ML Papers of the Week) (discuss.pytorch.kr)",
-        link: "https://discuss.pytorch.kr/t/2024-04-22-04-28-ml-top-ml-papers-of-the-week/4237?utm_source=geeknews",
-      },
-      {
-        rank: 17,
-        title:
-          "GN⁺: 읽은 내용이 당신을 만든다, 기억하지 못한다 해도 (blog.jim-nielsen.com)",
-        link: "https://blog.jim-nielsen.com/2024/you-are-what-you-read/",
-      },
-      {
-        rank: 18,
         title: "GN⁺: Rust로 게임 개발을 한 3년 후에 떠나며 (loglog.games)",
         link: "https://loglog.games/blog/leaving-rust-gamedev/",
       },
       {
+        rank: 17,
+        title: "프론트엔드 개발자/엔지니어 핸드북 2024 (frontendmasters.com)",
+        link: "https://frontendmasters.com/guides/front-end-handbook/2024/",
+      },
+      {
+        rank: 18,
+        title: "Ubuntu 24.04 Noble Numbat 출시 (releases.ubuntu.com)",
+        link: "https://releases.ubuntu.com/noble/",
+      },
+      {
         rank: 19,
-        title:
-          "Apple, 기기 내 사용을 목표로 하는 8개의 소형 AI 언어 모델 릴리즈 (arstechnica.com)",
-        link: "https://arstechnica.com/information-technology/2024/04/apple-releases-eight-small-ai-language-models-aimed-at-on-device-use/",
+        title: "Mise - 다중언어(Polyglot) 버전 관리자 (mise.jdx.dev)",
+        link: "https://mise.jdx.dev/",
       },
       {
         rank: 20,
-        title: "Ubuntu 24.04 Noble Numbat 출시 (releases.ubuntu.com)",
-        link: "https://releases.ubuntu.com/noble/",
+        title:
+          "[2024/04/22 ~ 04/28] 이번 주의 주요 ML 논문 (Top ML Papers of the Week) (discuss.pytorch.kr)",
+        link: "https://discuss.pytorch.kr/t/2024-04-22-04-28-ml-top-ml-papers-of-the-week/4237?utm_source=geeknews",
       },
     ],
   },
@@ -471,9 +467,9 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 5,
-        icon: 'https://media.disquiet.io/images/product/thumbnail/21d3924c49d055c4dab5183358489c521938dbdcd7a8a5249b74ef2803e20563?w=64&f=webp")',
-        title: "번핏",
-        link: "https://disquiet.io/product/%EB%B2%88%ED%95%8F-1714114784884",
+        icon: 'https://media.disquiet.io/images/product/thumbnail/51a2cfe8ce6380765712f323e988879da6e07edab057598d8d4be2ac6ee3dd75?w=64&f=webp")',
+        title: "지하찰톡",
+        link: "https://disquiet.io/product/%EC%A7%80%ED%95%98%EC%B0%B0%ED%86%A1",
       },
     ],
   },
@@ -496,13 +492,13 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 3,
-        title: "Netflix의 Java 사용 변천사 (번역)",
-        link: "https://careerly.co.kr/comments/102677",
+        title: "개발자가 실생활에서 실천할 수 있는 스터디 방법 소개 🔑",
+        link: "https://careerly.co.kr/comments/102794",
       },
       {
         rank: 4,
-        title: "개발자가 실생활에서 실천할 수 있는 스터디 방법 소개 🔑",
-        link: "https://careerly.co.kr/comments/102794",
+        title: "Netflix의 Java 사용 변천사 (번역)",
+        link: "https://careerly.co.kr/comments/102677",
       },
       {
         rank: 5,
@@ -516,38 +512,38 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 7,
+        title: "498개의 테스트 코드 (번역)",
+        link: "https://careerly.co.kr/comments/103928",
+      },
+      {
+        rank: 8,
         title: "[책] 개발자 기술 면접 노트",
         link: "https://careerly.co.kr/comments/103098",
       },
       {
-        rank: 8,
+        rank: 9,
         title: "🕊️ 2024 버클리즈 Java SpringBoot 인터뷰 질문 (2)",
         link: "https://careerly.co.kr/comments/102481",
       },
       {
-        rank: 9,
+        rank: 10,
         title: "좋은 개발자가 알아야하는 9가지 포인트들 - 2. 학습 능력 키우기",
         link: "https://careerly.co.kr/comments/102838",
       },
       {
-        rank: 10,
+        rank: 11,
         title: "좋은 개발자가 알아야하는 9가지 포인트들 - 3. 의사 소통 잘하기",
         link: "https://careerly.co.kr/comments/103246",
       },
       {
-        rank: 11,
+        rank: 12,
         title: "🥟 Bun v1.1 출시 소식",
         link: "https://careerly.co.kr/comments/102544",
       },
       {
-        rank: 12,
+        rank: 13,
         title: "Spring 면접 전 살펴보기 위한 Q&A 35가지 (2024년 ver)",
         link: "https://careerly.co.kr/comments/101340",
-      },
-      {
-        rank: 13,
-        title: "📕 서버와 클라이언트의 통신방법 한번에 정리해 드림",
-        link: "https://careerly.co.kr/comments/102167",
       },
       {
         rank: 14,
@@ -556,23 +552,23 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 15,
+        title: "📕 서버와 클라이언트의 통신방법 한번에 정리해 드림",
+        link: "https://careerly.co.kr/comments/102167",
+      },
+      {
+        rank: 16,
         title: "📝 메타의 스레드, 모놀리틱 아키텍처 사용",
         link: "https://careerly.co.kr/comments/102928",
       },
       {
-        rank: 16,
+        rank: 17,
         title: "🕊️ [강의] SpringBoot3 마스터하기! 수강 후기",
         link: "https://careerly.co.kr/comments/102241",
       },
       {
-        rank: 17,
+        rank: 18,
         title: "다시 한 번 영어 공부",
         link: "https://careerly.co.kr/comments/102379",
-      },
-      {
-        rank: 18,
-        title: "퀄리티 높은 REST API 작성하기 🎨",
-        link: "https://careerly.co.kr/comments/102068",
       },
       {
         rank: 19,
@@ -594,122 +590,123 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
-        icon: "https://ph-files.imgix.net/0f96aaec-d178-4b46-a689-2065c977cf7c.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Outerbase 2.0",
-        link: "https://www.producthunt.com/posts/outerbase-2-0",
-      },
-      {
-        rank: 2,
-        icon: "https://ph-files.imgix.net/8fbd4713-1f51-4cff-9610-f33baaa187aa.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Braudit",
-        link: "https://www.producthunt.com/posts/braudit",
-      },
-      {
-        rank: 3,
-        icon: "https://ph-files.imgix.net/dda3dbcd-a996-4e47-a1a9-9be58dd2687a.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Turnip",
-        link: "https://www.producthunt.com/posts/turnip",
-      },
-      {
-        rank: 4,
         icon: "https://ph-files.imgix.net/35669f76-9195-40e3-b202-8ebd5e0d4e7a.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Microns v2",
         link: "https://www.producthunt.com/posts/microns-v2",
       },
       {
-        rank: 5,
-        icon: "https://ph-files.imgix.net/274bccdd-c71a-46c0-a815-8b251f1a58af.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Credible: Speech Coach",
-        link: "https://www.producthunt.com/posts/credible-speech-coach",
-      },
-      {
-        rank: 6,
-        icon: "https://ph-files.imgix.net/1758ac06-82cc-43a9-8fc6-42956bc8de07.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Survei",
-        link: "https://www.producthunt.com/posts/survei",
-      },
-      {
-        rank: 7,
-        icon: "https://ph-files.imgix.net/ce65d516-8539-4c8d-9558-ae5bae064fcc.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Meeting recorder for Product teams",
-        link: "https://www.producthunt.com/posts/meeting-recorder-for-product-teams",
-      },
-      {
-        rank: 8,
+        rank: 2,
         icon: "https://ph-files.imgix.net/e6132ffc-4ba0-47b2-9ed8-0653f8a8d5f1.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Otterly.ai",
         link: "https://www.producthunt.com/posts/otterly-ai",
       },
       {
-        rank: 9,
+        rank: 3,
+        icon: "https://ph-files.imgix.net/0f96aaec-d178-4b46-a689-2065c977cf7c.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Outerbase 2.0",
+        link: "https://www.producthunt.com/posts/outerbase-2-0",
+      },
+      {
+        rank: 4,
+        icon: "https://ph-files.imgix.net/ce65d516-8539-4c8d-9558-ae5bae064fcc.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Meeting Recorder for Product Teams",
+        link: "https://www.producthunt.com/posts/meeting-recorder-for-product-teams",
+      },
+      {
+        rank: 5,
         icon: "https://ph-files.imgix.net/b49048bb-6c9a-43b0-8880-25c4fcb7dfd5.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Sofa 4.0",
         link: "https://www.producthunt.com/posts/sofa-4-0",
       },
       {
+        rank: 6,
+        icon: "https://ph-files.imgix.net/dda3dbcd-a996-4e47-a1a9-9be58dd2687a.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Turnip",
+        link: "https://www.producthunt.com/posts/turnip",
+      },
+      {
+        rank: 7,
+        icon: "https://ph-files.imgix.net/1758ac06-82cc-43a9-8fc6-42956bc8de07.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Survei",
+        link: "https://www.producthunt.com/posts/survei",
+      },
+      {
+        rank: 8,
+        icon: "https://ph-files.imgix.net/8fbd4713-1f51-4cff-9610-f33baaa187aa.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Braudit",
+        link: "https://www.producthunt.com/posts/braudit",
+      },
+      {
+        rank: 9,
+        icon: "https://ph-files.imgix.net/274bccdd-c71a-46c0-a815-8b251f1a58af.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Credible",
+        link: "https://www.producthunt.com/posts/credible-3986ea0e-b2b5-4dd8-b910-b949366c3a09",
+      },
+      {
         rank: 10,
+        icon: "https://ph-files.imgix.net/e396c412-b7e5-4013-8724-5a4f6120b34a.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Linckr",
+        link: "https://www.producthunt.com/posts/linckr",
+      },
+      {
+        rank: 11,
+        icon: "https://ph-files.imgix.net/7b53bee0-6b95-4afa-b968-e94dfc2ad6d4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "VidGenesis",
+        link: "https://www.producthunt.com/posts/vidgenesis",
+      },
+      {
+        rank: 12,
+        icon: "https://ph-files.imgix.net/89b2f0e1-1840-427a-8a52-93635ec25024.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Bigma",
+        link: "https://www.producthunt.com/posts/bigma",
+      },
+      {
+        rank: 13,
         icon: "https://ph-files.imgix.net/5ccba64d-f300-4d34-a814-d27ccbcd450a.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Bright",
         link: "https://www.producthunt.com/posts/bright-60b17cda-fede-4d2f-8759-3f27988db55d",
       },
       {
-        rank: 11,
+        rank: 14,
         icon: "https://ph-files.imgix.net/da69a2e9-67c6-40d1-9962-b3426fa04cd4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "My-legacy.ai",
         link: "https://www.producthunt.com/posts/my-legacy-ai",
       },
       {
-        rank: 12,
+        rank: 15,
         icon: "https://ph-files.imgix.net/fc69f8fc-b40d-40a3-a5ed-558d8f41f58f.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Play AI",
         link: "https://www.producthunt.com/posts/play-ai",
       },
       {
-        rank: 13,
+        rank: 16,
         icon: "https://ph-files.imgix.net/fc83ba48-f3f9-4b10-8f6f-f185756fda7b.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "SaaSykit",
         link: "https://www.producthunt.com/posts/saasykit",
       },
       {
-        rank: 14,
+        rank: 17,
         icon: "https://ph-files.imgix.net/2e8527b5-5d7d-4d47-8348-961c9896c93d.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "ProfessorAI",
         link: "https://www.producthunt.com/posts/professorai-2",
       },
       {
-        rank: 15,
+        rank: 18,
         icon: "https://ph-files.imgix.net/d95fa22d-1597-4ebe-8a22-c28fc63be449.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "PaddleBoat",
         link: "https://www.producthunt.com/posts/paddleboat",
       },
       {
-        rank: 16,
+        rank: 19,
         icon: "https://ph-files.imgix.net/c94ed075-ade9-4312-a851-d8ac54319247.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Boom",
         link: "https://www.producthunt.com/posts/boom-6",
       },
       {
-        rank: 17,
+        rank: 20,
         icon: "https://ph-files.imgix.net/9cc4d7a4-a24e-4d0e-8a3f-6afd051b6e19.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
         title: "Assista AI",
         link: "https://www.producthunt.com/posts/assista-ai",
-      },
-      {
-        rank: 18,
-        icon: "https://ph-files.imgix.net/ff9bd8a4-039d-427a-872e-7e0a5dce27aa.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Subframe",
-        link: "https://www.producthunt.com/posts/subframe",
-      },
-      {
-        rank: 19,
-        icon: "https://ph-files.imgix.net/ac4986ef-12c9-48ea-a73b-0f5cc5e9b9b1.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "LangWatch",
-        link: "https://www.producthunt.com/posts/langwatch",
-      },
-      {
-        rank: 20,
-        title: "Dub.co",
-        link: "https://www.producthunt.com/products/dub#dub",
       },
     ],
   },
@@ -718,24 +715,24 @@ export const ContentsData: Data[] = [
     title: "오늘의 SERVER",
     contents: [
       {
-        title: "[SaaS] 시간여행이 가능한 시스템 아키텍처",
-        link: "https://blog.gangnamunni.com/post/saas-event-sourcing/",
+        title: "배달의민족에서 금칙어를 관리하는 방법",
+        link: "https://techblog.woowahan.com/15764",
       },
       {
-        title: "인프랩 CTO가 말하는 결제 개발 A to Z",
-        link: "https://velog.io/@tosspayments/%EC%9D%B8%ED%94%84%EB%9E%A9-CTO%EA%B0%80-%EB%A7%90%ED%95%98%EB%8A%94-%EA%B2%B0%EC%A0%9C-%EA%B0%9C%EB%B0%9C-A-to-Z",
+        title: "이거 어디까지 올라가는 거예요? - 성능 테스트 환경 구축기",
+        link: "https://blog.lemonbase.team/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B8%B0%EC%88%A0%EA%B3%BC%EC%A0%9C-%EC%84%B1%EB%8A%A5-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95-2f0dfd5ce9c3",
       },
       {
-        title: "개발자를 잠 못 들게 만드는 코드",
-        link: "https://dev.gmarket.com/103",
+        title: "CDN 서버 구축일지",
+        link: "https://marshallku.com/dev/cdn-server-with-rust",
       },
       {
-        title: "설계란 고민의 연속이다 1편",
-        link: "https://dev.gmarket.com/104",
+        title: "정규식 함부로 쓰지 말자",
+        link: "https://velog.io/@skynet/%EC%A0%95%EA%B7%9C%EC%8B%9D-%ED%95%A8%EB%B6%80%EB%A1%9C-%EC%93%B0%EC%A7%80-%EB%A7%90%EC%9E%90",
       },
       {
-        title: "개발자가 손수 대규모 Cassandra를 신규 클러스터로 이전하기",
-        link: "https://techblog.lycorp.co.jp/ko/moving-large-scale-cassandra-to-a-new-cluster",
+        title: "상품데이터 Pipeline을 위한 Debezium MSK Connect",
+        link: "https://oliveyoung.tech/blog/2024-03-11/msk-cdc-debezium/",
       },
     ],
   },
@@ -744,24 +741,24 @@ export const ContentsData: Data[] = [
     title: "오늘의 WEB",
     contents: [
       {
-        title: "크로스 플랫폼 디자인 시스템, 1.5년의 기록 (2)",
-        link: "https://yozm.wishket.com/magazine/detail/2538/",
+        title: "react 공용 컴포넌트 설계하는법(feat.네비게이션바)",
+        link: "https://velog.io/@yesbb/%EB%84%A4%EB%B9%84%EA%B2%8C%EC%9D%B4%EC%85%98%EB%B0%94%EB%A5%BC-%EC%84%A4%EA%B3%84%ED%95%98%EB%8A%94-%EB%8D%94-%EB%82%98%EC%9D%80-%EB%B0%A9%EB%B2%95",
       },
       {
-        title: "2024 프론트엔드 기술스택 이야기",
-        link: "https://velog.io/@teo/2024-frontend-techstack",
+        title: "개발 파트 소개 - 2. 웹 프론트엔드 파트",
+        link: "https://tech.inflab.com/20240423-fe-part/",
       },
       {
-        title: "[번역] 재미와 이익을 위한 자바스크립트 최적화",
-        link: "https://velog.io/@surim014/optimizing-javascript-for-fun-and-for-profit",
+        title: "통합된 개발과 배포 : Monorepo와 GitOps의 매력적인 조합",
+        link: "https://saramin.github.io/2024-04-08-monorepo-gitops",
       },
       {
-        title: "(번역) 자바스크립트 시각화하기 : 프로미스 실행",
-        link: "https://velog.io/@sehyunny/js-visualized-promise-execution",
+        title: "[웹 성능 최적화] #1 브라우저는 어떻게 렌더링을 할까",
+        link: "https://anneslab.tistory.com/",
       },
       {
-        title: "지금 당장 pnpm으로 넘어가야 하는 이유",
-        link: "https://lasbe.tistory.com/200?utm_source=oneoneone",
+        title: "Why don’t we talk about minifying CSS anymore?",
+        link: "https://blog.sentry.io/why-dont-we-talk-about-minifying-css/",
       },
     ],
   },
