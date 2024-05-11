@@ -47,27 +47,27 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 6,
-        title: "",
+        title: "신입 개발자의 한 달",
         link: "https://careerly.co.kr/comments/103929",
       },
       {
         rank: 7,
-        title: "",
+        title: "코딩하다가 막혔을때 극복하는 5가지 방법",
         link: "https://careerly.co.kr/comments/103985",
       },
       {
         rank: 8,
-        title: "",
+        title: "비쥬얼 스튜디오 코드에서 Llama 3 실행하기",
         link: "https://careerly.co.kr/comments/103969",
       },
       {
         rank: 9,
-        title: "",
+        title: "⟪성숙한 사람이 되기 위한 10가지 노력⟫",
         link: "https://careerly.co.kr/comments/103955",
       },
       {
         rank: 10,
-        title: "",
+        title: "집에서 서버를 운영하는 게 가능한가요?",
         link: "https://careerly.co.kr/comments/103919",
       },
     ],
@@ -80,69 +80,69 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
+        title: "AI 활용한 개발 방법과 프롬프트 팁 정리",
+        link: "https://yozm.wishket.com/magazine/detail/2575/",
+      },
+      {
+        rank: 2,
         title: "윈도우 프로그램은 정말로 사라질까?",
         link: "https://yozm.wishket.com/magazine/detail/2569/",
       },
       {
-        rank: 2,
+        rank: 3,
         title: "쿠팡, 그때는 맞고 지금은 틀리다",
         link: "https://yozm.wishket.com/magazine/detail/2568/",
       },
       {
-        rank: 3,
+        rank: 4,
         title: "새로운 데이터 직군, 데이터 애널리틱스 엔지니어란?",
         link: "https://yozm.wishket.com/magazine/detail/2563/",
       },
       {
-        rank: 4,
+        rank: 5,
         title: "‘API Versioning’은 반드시 필요할까?",
         link: "https://yozm.wishket.com/magazine/detail/2554/",
       },
       {
-        rank: 5,
+        rank: 6,
         title: "개발자를 위한 영어 12시제 활용 가이드",
         link: "https://yozm.wishket.com/magazine/detail/2548/",
       },
       {
-        rank: 6,
+        rank: 7,
         title: "팀장님에게 칭찬받기 좋은 Git 꿀팁 2가지",
         link: "https://yozm.wishket.com/magazine/detail/2545/",
       },
       {
-        rank: 7,
+        rank: 8,
         title:
           "[SI에서 성장하기] ④ 24년 차 대기업 개발자 출신이 말하는 요즘 SI 현장의 변화와 과제",
         link: "https://yozm.wishket.com/magazine/detail/2544/",
       },
       {
-        rank: 8,
+        rank: 9,
         title: "어제보다 1cm 더 성장하기: 네이버 권태관 개발자",
         link: "https://yozm.wishket.com/magazine/detail/2539/",
       },
       {
-        rank: 9,
+        rank: 10,
         title: "[SI에서 성장하기] ③ 스타트업만 알던 내가 SI 취업하고 생긴 일",
         link: "https://yozm.wishket.com/magazine/detail/2535/",
       },
       {
-        rank: 10,
+        rank: 11,
         title: "‘위임’하는 월마트가 ‘통제’하는 아마존을 추격합니다",
         link: "https://yozm.wishket.com/magazine/detail/2534/",
       },
       {
-        rank: 11,
+        rank: 12,
         title: "SI vs. SM 개발자, 뭘 해야 할까요?",
         link: "https://yozm.wishket.com/magazine/detail/2533/",
       },
       {
-        rank: 12,
+        rank: 13,
         title: "피드백을 통해 성장하는 법 6가지",
         link: "https://yozm.wishket.com/magazine/detail/2526/",
-      },
-      {
-        rank: 13,
-        title: "스마트팩토리는 어떻게 설비 데이터를 수집할까?",
-        link: "https://yozm.wishket.com/magazine/detail/2522/",
       },
     ],
   },
@@ -155,172 +155,174 @@ export const ContentsData: Data[] = [
       {
         rank: 1,
         title:
-          "AlphaFold 3 predicts the structure and interactions of life's molecules (blog.google)",
-        link: "https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/",
+          "Most of Europe is glowing pink under the aurora (foto-webcam.eu)",
+        link: "https://www.foto-webcam.eu/webcam/lucknerhaus/",
       },
       {
         rank: 2,
-        title:
-          "Consistency LLM: converting LLMs to parallel decoders accelerates inference 3.5x (hao-ai-lab.github.io)",
-        link: "https://hao-ai-lab.github.io/blogs/cllm/",
+        title: "Jim Simons has died (simonsfoundation.org)",
+        link: "https://www.simonsfoundation.org/2024/05/10/simons-foundation-co-founder-mathematician-and-investor-jim-simons-dies-at-86/",
       },
       {
         rank: 3,
         title:
-          "A look inside illegal drone deliveries at B.C.'s prisons (vancouverisawesome.com)",
-        link: "https://www.vancouverisawesome.com/highlights/watch-a-look-inside-illegal-drone-deliveries-at-bcs-prisons-8706734",
+          "Coronal mass ejection impact imminent, two more earth-directed CMEs (spaceweatherlive.com)",
+        link: "https://www.spaceweatherlive.com/en/news/view/533/20240510-cme-impact-imminent-two-more-earth-directed-cmes.html",
       },
       {
         rank: 4,
         title:
-          "Opening Windows in Linux with sockets, bare hands and 200 lines of C (hereket.com)",
-        link: "https://hereket.com/posts/from-scratch-x11-windowing/",
+          "Apple finalizing deal with OpenAI to bring ChatGPT features to iOS 18 (9to5mac.com)",
+        link: "https://9to5mac.com/2024/05/10/ios-18-chatgpt-features-apple-openai/",
       },
       {
         rank: 5,
         title:
-          "The Time I Lied to the CTO and Saved the Day (grumpyolddev.com)",
-        link: "https://grumpyolddev.com/post/the-one-where-i-lie-to-the-cto/",
+          "Show HN: A web debugger an ex-Cloudflare team has been working on for 4 years",
+        link: "https://news.ycombinator.com/item?id=40318542",
       },
       {
         rank: 6,
         title:
-          'Industrial Design Student Work: "How Long Should Objects Last?" (core77.com)',
-        link: "https://www.core77.com/posts/132088/Fantastic-Industrial-Design-Student-Work-How-Long-Should-Objects-Last",
+          "Nasa’s Roman Mission Will Hunt for Primordial Black Holes (nasa.gov)",
+        link: "https://www.nasa.gov/missions/roman-space-telescope/how-nasas-roman-mission-will-hunt-for-primordial-black-holes/",
       },
       {
         rank: 7,
-        title: 'Development Notes from xkcd\'s "Machine" (chromakode.com)',
-        link: "https://chromakode.com/post/xkcd-machine/",
+        title: "100 Years of IBM (tikalon.com)",
+        link: "http://www.tikalon.com/blog/blog.php?article=2024/IBM_100",
       },
       {
         rank: 8,
         title:
-          "How to Use the Foreign Function API in Java 22 to Call C Libraries (ifesunmola.com)",
-        link: "https://ifesunmola.com/how-to-use-the-foreign-function-api-in-java-22-to-call-c-libraries/",
+          "Superfile – A fancy, pretty terminal file manager (github.com/mhnightcat)",
+        link: "https://github.com/MHNightCat/superfile",
       },
       {
         rank: 9,
         title:
-          "TimesFM: Time Series Foundation Model for time-series forecasting (github.com/google-research)",
-        link: "https://github.com/google-research/timesfm",
+          "Deno KV internals: building a database for the modern web (deno.com)",
+        link: "https://deno.com/blog/building-deno-kv",
       },
       {
         rank: 10,
-        title:
-          "Breathwork supports emergence of altered states of consciousness (researchsquare.com)",
-        link: "https://www.researchsquare.com/article/rs-3976380/v1",
+        title: "One Minute Park (oneminutepark.tv)",
+        link: "https://oneminutepark.tv/",
       },
       {
         rank: 11,
-        title:
-          "Show HN: AI climbing coach – visualize how to climb any route based on your body (climbing.ai)",
-        link: "https://climbing.ai/",
+        title: "Life-like particle system (ventrella.com)",
+        link: "https://ventrella.com/Clusters/",
       },
       {
         rank: 12,
-        title: "Show HN: I built a non-linear UI for ChatGPT (grafychat.com)",
-        link: "https://www.grafychat.com/",
+        title:
+          "Show HN: Jacinda, a functional Awk (text stream processing on the comamnd-line) (haskell.org)",
+        link: "https://hackage.haskell.org/package/jacinda",
       },
       {
         rank: 13,
         title:
-          "Shell sold carbon credits for carbon that was never captured (cbc.ca)",
-        link: "https://www.cbc.ca/news/climate/shell-greenpeace-quest-1.7196792",
+          "Food labels and the lies they tell us about ‘best before’ expiration dates (2021) (vox.com)",
+        link: "https://www.vox.com/22559293/food-waste-expiration-label-best-before",
       },
       {
         rank: 14,
-        title: "Radius Full Page Display (32by32.com)",
-        link: "https://32by32.com/radius-full-page-display/",
+        title:
+          "New mirror that can be flexibly shaped improves X-ray microscopes (phys.org)",
+        link: "https://phys.org/news/2024-05-mirror-flexibly-ray-microscopes.html",
       },
       {
         rank: 15,
         title:
-          "Show HN: SimBricks – Modular Full-System Simulation for HW-SW Systems (simbricks.github.io)",
-        link: "https://simbricks.github.io/",
+          "Roman Tyrian purple snail dye found in UK for first time (bbc.com)",
+        link: "https://www.bbc.com/news/articles/cjje132jvygo",
       },
       {
         rank: 16,
-        title:
-          "Stack Overflow users deleting answers after OpenAI partnership (build5nines.com)",
-        link: "https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership/",
+        title: "Laudatio Turiae (wikipedia.org)",
+        link: "https://en.wikipedia.org/wiki/Laudatio_Turiae",
       },
       {
         rank: 17,
-        title: "Securing Git Repositories with Gittuf (lwn.net)",
-        link: "https://lwn.net/SubscriberLink/972467/595a68b99f57a87d/",
+        title:
+          "Is the largest root of a random real polynomial more likely real or complex? (mathoverflow.net)",
+        link: "https://mathoverflow.net/questions/470951/is-the-largest-root-of-a-random-polynomial-more-likely-to-be-real-than-complex",
       },
       {
         rank: 18,
-        title: "The Waning Reign of the Muskrat (hakaimagazine.com)",
-        link: "https://hakaimagazine.com/features/the-magnificent-lives-and-quiet-loss-of-muskrats/",
+        title: "The poetic science of how cicadas sing (themarginalian.org)",
+        link: "https://www.themarginalian.org/2024/05/05/cicadas/",
       },
       {
         rank: 19,
-        title: "Temporal Fuzzing I: Memory Models (2021) (reitzen.com)",
-        link: "https://www.reitzen.com/post/temporal-fuzzing-01/",
+        title:
+          "I was at the clapperboard for Orson Welles' drunk wine commercial (2021) (melmagazine.com)",
+        link: "https://melmagazine.com/en-us/story/orson-welles-drunk-wine-commercial",
       },
       {
         rank: 20,
-        title:
-          "Pulley system composition – a systematic approach (2020) (kiipeilytuomas.fi)",
-        link: "https://www.kiipeilytuomas.fi/articles-in-english/pulley-system-composition-a-systematic-approach/",
+        title: "Cylindrical Slide Rules (si.edu)",
+        link: "https://americanhistory.si.edu/collections/object-groups/slide-rules/cylindrical-slide-rules",
       },
       {
         rank: 21,
         title:
-          "Empirical Health (YC S23) is hiring engineering leads in NYC (ycombinator.com)",
-        link: "https://www.ycombinator.com/companies/empirical-health/jobs/1PW3OFe-engineering-lead",
+          "A skeptic's take on beaming power to Earth from space (ieee.org)",
+        link: "https://spectrum.ieee.org/space-based-solar-power-2667878868",
       },
       {
         rank: 22,
         title:
-          "Launch HN: Baselit (YC W23) – Automatically Reduce Snowflake Costs",
-        link: "https://news.ycombinator.com/item?id=40299556",
+          "Evaluating Eye Tracking Systems for Computer Input (2012) (yorku.ca)",
+        link: "https://www.yorku.ca/mack/cogain.html",
       },
       {
         rank: 23,
-        title: "Brain Worms: A Scientific Inquiry (theatlantic.com)",
-        link: "https://www.theatlantic.com/health/archive/2024/05/robert-kennedy-brain-worms-neurocysticercosis/678331/",
+        title:
+          "Swipos-GIS/GEO, nationwide GNSS RTK correction for centimeter accurate location (admin.ch)",
+        link: "https://www.swisstopo.admin.ch/en/swipos-gisgeo-for-rtk-and-postprocessing-applications",
       },
       {
         rank: 24,
         title:
-          "Japanese Trade Publications Helped Japan Form a New Graphic Identity (2023) (collectorsweekly.com)",
-        link: "https://www.collectorsweekly.com/articles/how-a-rare-set-of-japanese-trade-publications-helped-japan-form-a-new-graphic-identity/",
+          "Show HN: A simple 2D fluid and gravity simulation with WASM and WebGL (aestuans.github.io)",
+        link: "https://aestuans.github.io/blob/",
       },
       {
         rank: 25,
-        title: "Using AirPods as a Morse Transmitter (github.com/etherdream)",
-        link: "https://github.com/EtherDream/headphone-morse-transmitter",
+        title:
+          "Cubic millimetre of brain mapped at nanoscale resolution (nature.com)",
+        link: "https://www.nature.com/articles/d41586-024-01387-9",
       },
       {
         rank: 26,
         title:
-          "Zimtohrli: A New Psychoacoustic Perceptual Metric for Audio Compression (github.com/google)",
-        link: "https://github.com/google/zimtohrli",
+          "Verizon and T-Mobile are trying to gobble up US Cellular (theverge.com)",
+        link: "https://www.theverge.com/business/2024/5/9/24153201/verizon-t-mobile-buy-us-cellular-spectrum",
       },
       {
         rank: 27,
         title:
-          "Adumbra: A lightweight Java library for bitmap steganography (github.com/galliumdata)",
-        link: "https://github.com/galliumdata/adumbra",
+          "Detroit Makes the Same Mistake on EVs It Did with Japan (bloomberg.com)",
+        link: "https://www.bloomberg.com/opinion/articles/2024-02-19/chinese-evs-detroit-makes-the-same-mistake-it-did-with-japan-in-the-1970s",
       },
       {
         rank: 28,
-        title: "Steve Albini has died (pitchfork.com)",
-        link: "https://pitchfork.com/news/steve-albini-storied-producer-and-icon-of-the-rock-underground-dies-at-61/",
+        title: "Tine Text Editor (github.com/travisdoor)",
+        link: "https://github.com/travisdoor/tine",
       },
       {
         rank: 29,
         title:
-          "'Underwater bicycle' propels swimmers forward at superhuman speed (newatlas.com)",
-        link: "https://newatlas.com/marine/seabike-swimming-propeller/",
+          "Writing C code in Java/Clojure: GraalVM specific programming (2021) (yyhh.org)",
+        link: "https://yyhh.org/blog/2021/02/writing-c-code-in-javaclojure-graalvm-specific-programming/",
       },
       {
         rank: 30,
-        title: "OpenAI: Model Spec (openai.com)",
-        link: "https://openai.com/index/introducing-the-model-spec",
+        title:
+          "KeePassXC Debian maintainer has removed all network features (fosstodon.org)",
+        link: "https://fosstodon.org/@keepassxc/112417353193348720",
       },
     ],
   },
@@ -332,113 +334,114 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
-        title: "Can I Webview - 웹뷰를 위한 Can I Use (caniwebview.com)",
-        link: "https://caniwebview.com/",
+        title:
+          "kvql - 키-밸류 DB를 위한 SQL과 비슷한 쿼리 언어 (github.com/c4pt0r)",
+        link: "https://github.com/c4pt0r/kvql",
       },
       {
         rank: 2,
-        title: "APPLE의 M4칩 공개, 이제 시작되었다 (youtube.com)",
-        link: "https://www.youtube.com/watch?v=TsKHjFeonRE",
+        title:
+          "Scrapegraph-ai - LLM과 직접 그래프 로직을 이용한 웹 스크래핑 (github.com/VinciGit00)",
+        link: "https://github.com/VinciGit00/Scrapegraph-ai",
       },
       {
         rank: 3,
-        title:
-          "xmake - Lua 기반 크로스플랫폼 빌드 유틸리티 (github.com/xmake-io)",
-        link: "https://github.com/xmake-io/xmake",
-      },
-      {
-        rank: 4,
-        title:
-          "GN⁺: AlphaFold 3, 생명체 분자 구조 및 상호작용 예측 기술 (blog.google)",
-        link: "https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/",
-      },
-      {
-        rank: 5,
         title:
           "Show GN: JavaScript에서 한글을 다루는 현대적인 라이브러리 (github.com/toss)",
         link: "https://news.hada.io/topic?id=14731",
       },
       {
+        rank: 4,
+        title: "Raspberry Pi Connect 베타 발표 (raspberrypi.com)",
+        link: "https://www.raspberrypi.com/news/raspberry-pi-connect/",
+      },
+      {
+        rank: 5,
+        title: "Can I Webview - 웹뷰를 위한 Can I Use (caniwebview.com)",
+        link: "https://caniwebview.com/",
+      },
+      {
         rank: 6,
+        title:
+          "node-mlx - Node.js용 머신 러닝 프레임워크 (github.com/frost-beta)",
+        link: "https://github.com/frost-beta/node-mlx",
+      },
+      {
+        rank: 7,
+        title:
+          "IBM Granite - 코드 작성용 오픈 파운데이션 모델 패밀리 (github.com/ibm-granite)",
+        link: "https://github.com/ibm-granite/granite-code-models",
+      },
+      {
+        rank: 8,
+        title: "Distribution Is King : 유통이 왕이다 (every.to)",
+        link: "https://every.to/napkin-math/distribution-is-king",
+      },
+      {
+        rank: 9,
+        title:
+          "KAIST 류석영 교수, 고려대와 자바스크립트 생태계의 안정성 보장할 수 있는 기술 개발 성공 (aitimes.kr)",
+        link: "https://www.aitimes.kr/news/articleView.html?idxno=31089",
+      },
+      {
+        rank: 10,
+        title:
+          "xmake - Lua 기반 크로스플랫폼 빌드 유틸리티 (github.com/xmake-io)",
+        link: "https://github.com/xmake-io/xmake",
+      },
+      {
+        rank: 11,
+        title: "2024 프로그래밍 언어 순위 (tiobe.com)",
+        link: "https://www.tiobe.com/tiobe-index/",
+      },
+      {
+        rank: 12,
         title:
           "TSDB를 활용하여 실시간 FFT(고속 푸리에 변환) 수행 사례 (machbase.com)",
         link: "https://www.machbase.com/post/machbase-neo-tsdb-fft-analytics",
       },
       {
-        rank: 7,
-        title: "구글 CEO Sundar Pichai가 말하는 AI의 미래 (youtube.com)",
-        link: "https://www.youtube.com/watch?v=5puu3kN9l7c",
+        rank: 13,
+        title: "ASCII 3D 렌더러 만들기 (kciter.so)",
+        link: "https://kciter.so/posts/ascii-3d-renderer/",
       },
       {
-        rank: 8,
+        rank: 14,
+        title:
+          "GN⁺: Google TimesFM - 시계열 예측을 위한 시계열 파운데이션 모델 (github.com/google-research)",
+        link: "https://github.com/google-research/timesfm",
+      },
+      {
+        rank: 15,
+        title: "OpenAI, Model Spec 공개 (openai.com)",
+        link: "https://openai.com/index/introducing-the-model-spec/",
+      },
+      {
+        rank: 16,
         title:
           "Peerdb Streams - 심플한 Postgres CDC(Change Data Capture) (blog.peerdb.io)",
         link: "https://blog.peerdb.io/peerdb-streams-simple-native-postgres-change-data-capture",
       },
       {
-        rank: 9,
-        title: "Distribution Is King : 유통이 왕이다 (every.to)",
-        link: "https://every.to/napkin-math/distribution-is-king",
+        rank: 17,
+        title:
+          "GN⁺: Stack Overflow 사용자들, OpenAI 제휴 후 답변 삭제 잇따라 (build5nines.com)",
+        link: "https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership/",
       },
       {
-        rank: 10,
+        rank: 18,
         title: "Pyspread - 파이썬 스프레드시트 (pyspread.gitlab.io)",
         link: "https://pyspread.gitlab.io/",
       },
       {
-        rank: 11,
-        title:
-          "Show GN: 오픈 소스 데이터 익명화 및 Postgres 및 Mysql을 위한 합성 데이터 (github.com/nucleuscloud)",
-        link: "https://news.hada.io/topic?id=14711",
-      },
-      {
-        rank: 12,
-        title: "ASCII 3D 렌더러 만들기 (kciter.so)",
-        link: "https://kciter.so/posts/ascii-3d-renderer/",
-      },
-      {
-        rank: 13,
-        title: "GN⁺: PHP는 더 이상 형편없지(Suck) 않아요 (developerjoy.co)",
-        link: "https://developerjoy.co/blog/php-doesnt-suck-anymore",
-      },
-      {
-        rank: 14,
-        title:
-          "Secret Llama - WebGPU로 구동되는 인브라우저 Llama 3 챗봇 구현체 (github.com/abi)",
-        link: "https://github.com/abi/secret-llama",
-      },
-      {
-        rank: 15,
-        title: "GN⁺: 14일 무료 평가판으로는 충분하지 않아요 (keygen.sh)",
-        link: "https://keygen.sh/blog/your-14-day-free-trial-aint-gonna-cut-it/",
-      },
-      {
-        rank: 16,
-        title:
-          "eSpeak NG - 100개 이상의 언어와 악센트를 지원하는 음성 합성기 오픈소스 (github.com/espeak-ng)",
-        link: "https://github.com/espeak-ng/espeak-ng",
-      },
-      {
-        rank: 17,
-        title:
-          "GN⁺: 기업들이 GPU에 대한 저렴한 접근을 요구하면서 대체 클라우드가 급성장중 (techcrunch.com)",
-        link: "https://techcrunch.com/2024/05/05/coreweaves-1-1b-raise-shows-the-market-for-alternative-clouds-is-booming/",
-      },
-      {
-        rank: 18,
-        title: "Apple, M4 칩 공개 (apple.com)",
-        link: "https://www.apple.com/kr/newsroom/2024/05/apple-introduces-m4-chip/",
-      },
-      {
         rank: 19,
-        title: "GN⁺: 2024년의 Machine Unlearning (ai.stanford.edu)",
-        link: "https://ai.stanford.edu/~kzliu/blog/unlearning",
+        title: "APPLE의 M4칩 공개, 이제 시작되었다 (youtube.com)",
+        link: "https://www.youtube.com/watch?v=TsKHjFeonRE",
       },
       {
         rank: 20,
-        title:
-          "Ask HN: 멋져 보이는 스타트업 데모는 어떻게 만드나요? (news.ycombinator.com)",
-        link: "https://news.ycombinator.com/item?id=40231790",
+        title: "구글 CEO Sundar Pichai가 말하는 AI의 미래 (youtube.com)",
+        link: "https://www.youtube.com/watch?v=5puu3kN9l7c",
       },
     ],
   },
@@ -474,9 +477,9 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 5,
-        icon: 'https://media.disquiet.io/images/product/thumbnail/3310ef149fe96ea3296884449592d888477d84c88cfc1379d80af8d5471b742b?w=64&f=webp")',
-        title: "비어챗",
-        link: "https://disquiet.io/product/%EB%B9%84%EC%96%B4%EC%B1%97",
+        icon: 'https://media.disquiet.io/images/product/thumbnail/04d89f693e622e95c106e46c69ef7145ea26e4a5ef91238fee8fba5a57c16ad5?w=64&f=webp")',
+        title: "One Thing",
+        link: "https://disquiet.io/product/one-thing",
       },
     ],
   },
@@ -601,123 +604,123 @@ export const ContentsData: Data[] = [
     contents: [
       {
         rank: 1,
-        icon: "https://ph-files.imgix.net/8a099fd9-89a6-4f20-9adb-a3ea682c8432.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "SocialBu 2.0",
-        link: "https://www.producthunt.com/posts/socialbu-2-0",
+        icon: "https://ph-files.imgix.net/90b2b03b-9259-4552-ac71-5c678790b95f.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Clipwing",
+        link: "https://www.producthunt.com/posts/clipwing",
       },
       {
         rank: 2,
-        icon: "https://ph-files.imgix.net/d2fc56c2-36cc-43f5-a52c-9c9b14fb5e43.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Dreamdata Audience Hub",
-        link: "https://www.producthunt.com/posts/dreamdata-audience-hub",
+        icon: "https://ph-files.imgix.net/d6990cc9-6a8e-4871-8792-7c0c3c3b6476.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Otto",
+        link: "https://www.producthunt.com/posts/otto-5aa2afc8-0483-413d-8ef7-9a4fb8947858",
       },
       {
         rank: 3,
-        icon: "https://ph-files.imgix.net/eaaeec42-9cab-4420-9c25-260e98bfb781.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Abstra Workflows",
-        link: "https://www.producthunt.com/posts/abstra-workflows",
+        icon: "https://ph-files.imgix.net/763569f4-51c5-4c58-b0c3-c3b7a2f559a2.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "HyperURLs",
+        link: "https://www.producthunt.com/posts/hyperurls",
       },
       {
         rank: 4,
-        icon: "https://ph-files.imgix.net/0a98f3c5-96e9-4913-b985-c2d646ae7f48.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "CapUp",
-        link: "https://www.producthunt.com/posts/capup",
+        icon: "https://ph-files.imgix.net/f7f8536e-5b1c-4cda-baae-d11f9e906a75.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Upp.Vote",
+        link: "https://www.producthunt.com/posts/upp-vote",
       },
       {
         rank: 5,
-        icon: "https://ph-files.imgix.net/7bd4fada-9cc0-4f0e-a3f6-1b0c269fe04f.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Ringly.io",
-        link: "https://www.producthunt.com/posts/ringly-io",
+        icon: "https://ph-files.imgix.net/de358a3f-a53b-4887-8154-67e1fc3fd3cc.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Balance",
+        link: "https://www.producthunt.com/posts/balance-3698d76d-dd09-46ee-83eb-9153e61e8bb2",
       },
       {
         rank: 6,
-        icon: "https://ph-files.imgix.net/29e85f9e-472a-4c15-87be-ec45e22ab208.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Sketch 100",
-        link: "https://www.producthunt.com/posts/sketch-100-2",
+        icon: "https://ph-files.imgix.net/92cea1b7-d4a1-4354-8492-1adbf628d0f7.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "ManyExcel",
+        link: "https://www.producthunt.com/posts/manyexcel",
       },
       {
         rank: 7,
-        icon: "https://ph-files.imgix.net/403dcc2f-6c4a-488a-8e92-ed7f8a9b1a02.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "DataLab",
-        link: "https://www.producthunt.com/posts/datalab-3",
+        icon: "https://ph-files.imgix.net/db916953-3775-4f3b-99ad-4c0b98dffd4e.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "504 English Vocabulary Dictionary",
+        link: "https://www.producthunt.com/posts/504-english-vocabulary-dictionary",
       },
       {
         rank: 8,
-        icon: "https://ph-files.imgix.net/69c0649b-74e0-4685-b652-2514ef759d60.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "evo",
-        link: "https://www.producthunt.com/posts/evo-2",
+        icon: "https://ph-files.imgix.net/0ea89af7-a493-4447-a930-f90831d1a3cc.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Meeting Reminders",
+        link: "https://www.producthunt.com/posts/meeting-reminders",
       },
       {
         rank: 9,
-        icon: "https://ph-files.imgix.net/6ae67f69-d864-40df-9afe-b0bb456e8378.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "The New iPad Pro",
-        link: "https://www.producthunt.com/posts/the-new-ipad-pro-3",
+        icon: "https://ph-files.imgix.net/944c144b-0995-4306-90d5-574c7434a47a.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Storiado",
+        link: "https://www.producthunt.com/posts/storiado",
       },
       {
         rank: 10,
-        icon: "https://ph-files.imgix.net/05bd8f68-d7ce-4a49-9277-7455fd77460b.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "VoiceCheap",
-        link: "https://www.producthunt.com/posts/voicecheap",
+        icon: "https://ph-files.imgix.net/2c369b99-9e49-45d5-a929-4ccc8ce51dd1.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Photo Tape",
+        link: "https://www.producthunt.com/posts/photo-tape",
       },
       {
         rank: 11,
-        icon: "https://ph-files.imgix.net/72463a7b-16da-410f-a0ae-293ffe2f19a6.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "BeeBetter",
-        link: "https://www.producthunt.com/posts/beebetter",
+        icon: "https://ph-files.imgix.net/abd310e2-7d34-416d-a2a2-1fe8338e68f8.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "JetSnaps",
+        link: "https://www.producthunt.com/posts/jetsnaps",
       },
       {
         rank: 12,
-        icon: "https://ph-files.imgix.net/39ee0bdd-8ab5-4e6f-a14d-a221897fbf7e.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Apple Pencil Pro",
-        link: "https://www.producthunt.com/posts/apple-pencil-pro",
+        icon: "https://ph-files.imgix.net/faca1d6f-c6f9-4e20-93c6-718ee71ae8a9.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Jellyboard",
+        link: "https://www.producthunt.com/posts/jellyboard",
       },
       {
         rank: 13,
-        icon: "https://ph-files.imgix.net/bea9658a-b08c-4daf-ba90-880b81da9d82.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Diseed",
-        link: "https://www.producthunt.com/posts/diseed",
+        icon: "https://ph-files.imgix.net/3926cd50-a18e-4c06-a963-93c23130614b.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Itnk.app",
+        link: "https://www.producthunt.com/posts/itnk-app",
       },
       {
         rank: 14,
-        icon: "https://ph-files.imgix.net/9d1b74a6-4a70-473b-8fd4-60b38bcb80e4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "iPad Air",
-        link: "https://www.producthunt.com/posts/ipad-air-cfa54b3e-b6f6-49e3-9f57-90ea0a51da49",
+        icon: "https://ph-files.imgix.net/e85b9ac8-d21a-4c1d-816a-e5773ecbff04.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Ink Studio AI",
+        link: "https://www.producthunt.com/posts/ink-studio-ai",
       },
       {
         rank: 15,
-        icon: "https://ph-files.imgix.net/011da410-a03f-4a03-b08f-0df7c1ef775a.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "LaunchBrightly",
-        link: "https://www.producthunt.com/posts/launchbrightly",
+        icon: "https://ph-files.imgix.net/5eafe1ff-2e81-454b-b00a-efb8ba3389c0.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Public Commenting by Commented",
+        link: "https://www.producthunt.com/posts/public-commenting-by-commented",
       },
       {
         rank: 16,
-        icon: "https://ph-files.imgix.net/6488a68c-6831-41f9-a11f-799776e4c246.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "AFFiNE AI",
-        link: "https://www.producthunt.com/posts/affine-ai",
+        icon: "https://ph-files.imgix.net/b0ef2d09-348b-4de5-b4ee-7edcfa079a3e.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Bubbl Widget",
+        link: "https://www.producthunt.com/posts/bubbl-widget",
       },
       {
         rank: 17,
-        icon: "https://ph-files.imgix.net/b0ef2d09-348b-4de5-b4ee-7edcfa079a3e.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Studio Neiro AI x Adobe Express",
-        link: "https://www.producthunt.com/posts/studio-neiro-ai-x-adobe-express",
+        icon: "https://ph-files.imgix.net/da69a2e9-67c6-40d1-9962-b3426fa04cd4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "AlphaBot",
+        link: "https://www.producthunt.com/posts/alphabot",
       },
       {
         rank: 18,
-        icon: "https://ph-files.imgix.net/da69a2e9-67c6-40d1-9962-b3426fa04cd4.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Guardey",
-        link: "https://www.producthunt.com/posts/guardey",
+        icon: "https://ph-files.imgix.net/9d59a5fd-b7a5-492f-9954-c0d7ddc56701.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "RateMyJD by Dover",
+        link: "https://www.producthunt.com/posts/ratemyjd-by-dover",
       },
       {
         rank: 19,
-        icon: "https://ph-files.imgix.net/9d59a5fd-b7a5-492f-9954-c0d7ddc56701.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Flownote",
-        link: "https://www.producthunt.com/posts/flownote-4",
+        icon: "https://ph-files.imgix.net/7aba2286-e63d-419e-b993-48b779043d99.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Voice Director by Replica Studios",
+        link: "https://www.producthunt.com/posts/voice-director-by-replica-studios",
       },
       {
         rank: 20,
-        icon: "https://ph-files.imgix.net/7aba2286-e63d-419e-b993-48b779043d99.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
-        title: "Alpaca Options API",
-        link: "https://www.producthunt.com/posts/alpaca-options-api",
+        icon: "https://ph-files.imgix.net/ce7a4c38-9757-4286-8a54-7f074653f4db.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=48&h=48&fit=crop",
+        title: "Waxwing",
+        link: "https://www.producthunt.com/posts/waxwing",
       },
     ],
   },
