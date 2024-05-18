@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import NewsLetterSubmit from "../components/newsletter/button";
-
+import NOTE_IMG from "../../public/ex_note.png";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center px-4 lg:px-0">
@@ -11,10 +11,15 @@ export default function Home() {
         </Link>
       </header>
       <div className="z-10 w-full max-w-4xl font-mono py-6">
-        <div className="w-full bg-gray-300 h-[1px] my-2 mb-6"></div>
-        <h3 className="mb-4">뉴스레터 사전예약을 받습니다.</h3>
-        <NewsLetterSubmit />
-        <div className="w-full bg-gray-300 h-[1px] my-2 mt-8"></div>
+        <div className="w-full bg-gray-400 h-[1px] my-2 mb-8"></div>
+        {/* <h3 className="mb-4">뉴스레터 사전예약을 받습니다.</h3>
+        <NewsLetterSubmit /> */}
+        <Link href={"https://page.stibee.com/subscriptions/334115"}>
+          <h2 className="text-2xl font-bold w-full text-center underline">
+            신청하기
+          </h2>
+        </Link>
+        <div className="w-full bg-gray-400 h-[1px] my-2 mt-8"></div>
         <div className="mt-12">
           <h2 className="mb-4 text-2xl font-bold">이런 한 분을 찾습니다</h2>
           <div className="pl-4">
@@ -38,6 +43,12 @@ export default function Home() {
               <h4 className="text-sm text-gray-400 pl-4">
                 *(PDF or Notion파일 제공)
               </h4>
+              <Link
+                href={"https://slashpage.com/e/dev-ranking-mon"}
+                className="pl-4 underline text-cyan-600"
+              >
+                예시
+              </Link>
             </div>
             <br />
 
@@ -46,6 +57,12 @@ export default function Home() {
               <h4 className="text-sm text-gray-400 pl-4">
                 *(신규 콘텐츠위주, 콘텐츠 없는 주에는 기존 출간된 콘텐츠로 제공)
               </h4>
+              <Link
+                href={"https://slashpage.com/e/dev-ranking-tue"}
+                className="pl-4 underline text-cyan-600"
+              >
+                예시
+              </Link>
             </div>
             <br />
 
@@ -54,6 +71,12 @@ export default function Home() {
               <h4 className="text-sm text-gray-400 pl-4">
                 (TechCrunch, TheNextWeb, Wired, FirstPost, GizModo etc..){" "}
               </h4>
+              <Link
+                href={"https://slashpage.com/e/dev-ranking-wed"}
+                className="pl-4 underline text-cyan-600"
+              >
+                예시
+              </Link>
             </div>
             <br />
 
@@ -62,35 +85,63 @@ export default function Home() {
                 ∙ 목요일: 국내 TOP 티어 테크 블로그 신규 콘텐츠 알림 및 핵심
                 요약
               </h3>
+              <Link
+                href={"https://slashpage.com/e/dev-ranking-thur"}
+                className="pl-4 underline text-cyan-600"
+              >
+                예시
+              </Link>
             </div>
             <br />
 
             <div className="p-4 bg-[#fff]">
-              <h3>∙ 금요일: 위클리 트렌드 프로덕트 분석</h3>
+              <h3>∙ 금요일: 각종 DEV 컨퍼런스 영상 핵심 요약</h3>
               <h4 className="text-sm text-gray-400 pl-4">
-                (disquiet, product hunt)
+                (*우아콘, SLASH, DEVIEW, feconf, 인프콘 etc..)
               </h4>
-              <h3 className="pl-4">
-                + 스타트업 동향(시장, 투자) 흐름 정리 제공
-              </h3>
+              <Link
+                href={"https://slashpage.com/e/dev-ranking-fri"}
+                className="pl-4 underline text-cyan-600"
+              >
+                예시
+              </Link>
             </div>
             <br />
-
-            <h3 className="pt-3">
-              ∙(보너스) 주기별 각종 Dev 컨퍼런스 영상 핵심 요약
-            </h3>
           </div>
           <br />
           <br />
-          <div className="pl-4">
-            [추가 정보]
+
+          <div className="mt-16">
+            <h2 className="text-2xl font-bold">그외 혜택</h2>
+            <div className="pl-0 pt-4">
+              <div className="p-4 bg-[#fff] shadow-sm">
+                <h3>∙ 분기별 대형 컨퍼런스 총 요약노트 제공</h3>
+              </div>
+              <span>{"("}</span>
+              <div className="mt-8 inline-block">
+                <Image
+                  src={NOTE_IMG}
+                  height={340}
+                  alt="note"
+                  className="rounded-lg"
+                />
+              </div>
+              <span>{")"}</span>
+              <div className="mt-8 p-4 bg-[#fff] shadow-md">
+                <h3>∙ 연중무휴</h3>
+              </div>
+              <div className="mt-8 p-4 bg-[#fff] shadow-md">
+                <h3>∙ 주기별 개발 자료 아카이빙 제공</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 pl-4">
+            <h2 className="text-2xl font-bold mb-2">추가 정보</h2>
             <h3 className="mb-1">∙ 주기: 요일별 5회 발행 (총20-25회)</h3>
             <h3 className="mb-1">∙ 분량: 10분 집중할 수 있는 양으로</h3>
-            <h3 className="mb-0 text-red-600">
-              ∙ 가격: 월 15,000원 ~ 18,000원
-            </h3>
-            <h4 className="mb-1 text-sm text-gray-400 pl-4">(*가격 책정중)</h4>
-            <h3 className="mb-4">∙ 사전예약혜택: 첫 달 결제 50% 할인</h3>
+            <h3 className="mb-1 text-red-600">∙ 가격: 월 16,000원</h3>
+            <h3 className="mb-4">∙ 첫 달 결제 8,000원</h3>
           </div>
         </div>
       </div>
