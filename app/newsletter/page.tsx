@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import NewsLetterSubmit from "../components/newsletter/button";
+
 import NOTE_IMG from "../../public/ex_note.png";
+import COMPANY_IMG from "../../public/companies.png";
 import useAmplitudeContext from "../lib/core/amplitude/use-amplitude-context";
 export default function Home() {
   const { trackAmplitudeEvent } = useAmplitudeContext();
@@ -126,13 +127,12 @@ export default function Home() {
           <br />
           <br />
 
-          <div className="mt-16">
+          <div>
             <h2 className="text-2xl font-bold">그외 혜택</h2>
             <div className="pl-0 pt-4">
               <div className="p-4 bg-[#fff] shadow-sm">
                 <h3>∙ 분기별 대형 컨퍼런스 총 요약노트 제공</h3>
               </div>
-              <span>{"("}</span>
               <div className="mt-8 inline-block">
                 <Image
                   src={NOTE_IMG}
@@ -141,7 +141,6 @@ export default function Home() {
                   className="rounded-lg"
                 />
               </div>
-              <span>{")"}</span>
               <div className="mt-8 p-4 bg-[#fff] shadow-md">
                 <h3>∙ 연중무휴</h3>
               </div>
@@ -151,7 +150,19 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-12 pl-4">
+          <div className="mt-16">
+            <h2 className="text-2xl font-bold mb-4">
+              이런 회사의 개발자들이 같이 받아보고 있습니다.
+            </h2>
+            <Image
+              src={COMPANY_IMG}
+              height={340}
+              alt="note"
+              className="rounded-lg"
+            />
+          </div>
+
+          <div className="mt-16 pl-4">
             <h2 className="text-2xl font-bold mb-2">추가 정보</h2>
             <h3 className="mb-1">∙ 주기: 요일별 5회 발행 (총20-25회)</h3>
             <h3 className="mb-1">∙ 분량: 10분 집중할 수 있는 양으로</h3>
