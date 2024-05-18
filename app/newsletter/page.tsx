@@ -1,8 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import NewsLetterSubmit from "../components/newsletter/button";
 import NOTE_IMG from "../../public/ex_note.png";
+import useAmplitudeContext from "../lib/core/amplitude/use-amplitude-context";
 export default function Home() {
+  const { trackAmplitudeEvent } = useAmplitudeContext();
+  const log = (obj: any) => {
+    trackAmplitudeEvent("newsletter click", obj);
+  };
   return (
     <main className="flex min-h-screen flex-col items-center px-4 lg:px-0">
       <header className="w-full max-w-4xl py-4">
@@ -14,7 +21,10 @@ export default function Home() {
         <div className="w-full bg-gray-400 h-[1px] my-2 mb-8"></div>
         {/* <h3 className="mb-4">뉴스레터 사전예약을 받습니다.</h3>
         <NewsLetterSubmit /> */}
-        <Link href={"https://page.stibee.com/subscriptions/334115"}>
+        <Link
+          href={"https://page.stibee.com/subscriptions/334115"}
+          onClick={() => log({ value: "apply" })}
+        >
           <h2 className="text-2xl font-bold w-full text-center underline">
             신청하기
           </h2>
@@ -46,6 +56,7 @@ export default function Home() {
               <Link
                 href={"https://slashpage.com/e/dev-ranking-mon"}
                 className="pl-4 underline text-cyan-600"
+                onClick={() => log({ value: "mon" })}
               >
                 예시
               </Link>
@@ -60,6 +71,7 @@ export default function Home() {
               <Link
                 href={"https://slashpage.com/e/dev-ranking-tue"}
                 className="pl-4 underline text-cyan-600"
+                onClick={() => log({ value: "tue" })}
               >
                 예시
               </Link>
@@ -74,6 +86,7 @@ export default function Home() {
               <Link
                 href={"https://slashpage.com/e/dev-ranking-wed"}
                 className="pl-4 underline text-cyan-600"
+                onClick={() => log({ value: "wed" })}
               >
                 예시
               </Link>
@@ -88,6 +101,7 @@ export default function Home() {
               <Link
                 href={"https://slashpage.com/e/dev-ranking-thur"}
                 className="pl-4 underline text-cyan-600"
+                onClick={() => log({ value: "thur" })}
               >
                 예시
               </Link>
@@ -102,6 +116,7 @@ export default function Home() {
               <Link
                 href={"https://slashpage.com/e/dev-ranking-fri"}
                 className="pl-4 underline text-cyan-600"
+                onClick={() => log({ value: "fri" })}
               >
                 예시
               </Link>
