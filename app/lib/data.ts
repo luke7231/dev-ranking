@@ -485,9 +485,8 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 2,
-        title:
-          "서류전형은 통과할만한 신입 or 주니어 경력 개발자 이력서 스타일에 대해",
-        link: "https://careerly.co.kr/comments/103412",
+        title: "🕊️ [Medium] 자바 개발자가 피해야 하는 11가지 실수 (1)",
+        link: "https://careerly.co.kr/comments/104918",
       },
       {
         rank: 3,
@@ -496,92 +495,91 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 4,
-        title: "🕊️ 개발 세계에서 인기 있는 API 아키텍처 스타일",
-        link: "https://careerly.co.kr/comments/103275",
-      },
-      {
-        rank: 5,
         title:
           "좋은 개발자가 알아야하는 9가지 포인트들 - 6. 운영 고려 코드 작성",
         link: "https://careerly.co.kr/comments/104266",
       },
-
+      {
+        rank: 5,
+        title: "당신은 개발자가 아니라 Frameworker 입니다.",
+        link: "https://careerly.co.kr/comments/104988",
+      },
       {
         rank: 6,
+        title: "SOLID 원칙의 이면",
+        link: "https://careerly.co.kr/comments/104478",
+      },
+      {
+        rank: 7,
         title: "🌐 개발자가 알고 있으면 좋은 사이트",
         link: "https://careerly.co.kr/comments/103947",
       },
       {
-        rank: 7,
-        title: "[책] 개발자 기술 면접 노트",
-        link: "https://careerly.co.kr/comments/103098",
+        rank: 8,
+        title: "🕊️ [Medium] 자바 개발자가 피해야 하는 11가지 실수 (2)",
+        link: "https://careerly.co.kr/comments/105211",
       },
       {
-        rank: 8,
+        rank: 9,
+        title:
+          "좋은 개발자가 알아야하는 9가지 포인트들 - 사고 대처 능력 키우기",
+        link: "https://careerly.co.kr/comments/104778",
+      },
+      {
+        rank: 10,
         title: "🧨 개발자를 잠 못 들게 만드는 코드",
         link: "https://careerly.co.kr/comments/104021",
       },
       {
-        rank: 9,
+        rank: 11,
+        title:
+          "서류전형은 통과할만한 신입 or 주니어 경력 개발자 이력서 스타일에 대해",
+        link: "https://careerly.co.kr/comments/103412",
+      },
+      {
+        rank: 12,
         title: "Top 12 this For API Security",
         link: "https://careerly.co.kr/comments/104283",
       },
       {
-        rank: 10,
-        title: "🕊️ [Medium] 300개 이상의 리트코드 문제를 해결한 방법",
-        link: "https://careerly.co.kr/comments/103670",
-      },
-      {
-        rank: 11,
-        title: "좋은 개발자가 알아야하는 9가지 포인트들 - 3. 의사 소통 잘하기",
-        link: "https://careerly.co.kr/comments/103246",
-      },
-      {
-        rank: 12,
-        title: "ChatGPT 사용 시 유용한 3가지 팁",
-        link: "https://careerly.co.kr/comments/103483",
-      },
-      {
         rank: 13,
-        title:
-          "좋은 개발자가 알아야하는 9가지 포인트들 - 5. 태스크 완료 시간 추정",
-        link: "https://careerly.co.kr/comments/103676",
+        title: "API의 응답을 프론트에서 손쉽게 변경하기",
+        link: "https://careerly.co.kr/comments/104760",
       },
-
       {
         rank: 14,
-        title: "개발자 팟캐스트",
-        link: "https://careerly.co.kr/comments/104400",
+        title: "🎊 드디어 출간 완료! 🎊",
+        link: "https://careerly.co.kr/comments/105204",
       },
       {
         rank: 15,
-        title: "작년부터 베타 테스트를 진행하다가",
-        link: "https://careerly.co.kr/comments/103463",
+        title: "개발자의 이름 짓는 법, 네이밍 컨벤션",
+        link: "https://careerly.co.kr/comments/105436",
       },
       {
         rank: 16,
-        title: "2024년도에 배우면 좋은 프로그래밍언어 Part 2",
-        link: "https://careerly.co.kr/comments/103144",
+        title: "shadcn/ui: 2023년 깃허브 스타 1위 자바스크립트 프로젝트",
+        link: "https://careerly.co.kr/comments/105385",
       },
       {
         rank: 17,
-        title: "현대적인 JavaScript 한글 라이브러리, es-hangul",
-        link: "https://careerly.co.kr/comments/103361",
+        title: "분위기가 확실히 달랐던 SpringCamp2024",
+        link: "https://careerly.co.kr/comments/105412",
       },
       {
         rank: 18,
-        title: "성장의 이유",
-        link: "https://careerly.co.kr/comments/103875",
+        title: "“컴퓨터 세계를 완전히 변화시킨 25개의 논문”",
+        link: "https://careerly.co.kr/comments/104598",
       },
       {
         rank: 19,
-        title: "프론트엔드 개발의 필수 기술: 컴파일러와 번들러 이해하기",
-        link: "https://careerly.co.kr/comments/104101",
+        title: "직장에서 나르시스트를 상대하는 방법",
+        link: "https://careerly.co.kr/comments/104561",
       },
       {
         rank: 20,
-        title: "🕊️ 자바의 기본 트랜잭션 매니저와 그 구현체들",
-        link: "https://careerly.co.kr/comments/103026",
+        title: "개발자 팟캐스트",
+        link: "https://careerly.co.kr/comments/104400",
       },
     ],
   },
