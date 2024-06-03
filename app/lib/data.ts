@@ -47,27 +47,28 @@ export const ContentsData: Data[] = [
       },
       {
         rank: 6,
-        title: "",
+        title:
+          "[ '설득'에 관한 이야기 #3. ] 설득해야 할 문제와 대상을 분리하기",
         link: "https://careerly.co.kr/comments/105567",
       },
       {
         rank: 7,
-        title: "",
+        title: "금주 1주년 셀프 축하",
         link: "https://careerly.co.kr/comments/105410",
       },
       {
         rank: 8,
-        title: "",
+        title: "콘텐츠 비즈니스는 '채널 구축'에서부터 시작됩니다",
         link: "https://careerly.co.kr/comments/105566",
       },
       {
         rank: 9,
-        title: "",
+        title: "📝 Agent Hospital: 시뮬레이션으로 진화하는 의료 에이전트",
         link: "https://careerly.co.kr/comments/105508",
       },
       {
         rank: 10,
-        title: "",
+        title: "📝 애플 뮤직 개발자 채용 공고",
         link: "https://careerly.co.kr/comments/105349",
       },
     ],
