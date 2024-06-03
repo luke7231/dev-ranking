@@ -722,12 +722,12 @@ export const ContentsData: Data[] = [
     title: "오늘의 SERVER",
     contents: [
       {
-        title: "서버 증설 없이 처리하는 대규모 트래픽",
-        link: "https://toss.tech/article/monitoring-traffic",
+        title: "AWS Lambda를 활용한 짧은 주기 배치 구현",
+        link: "https://www.lgcns.com/blog/cns-tech/aws-ambassador/55633/?utm_source=oneoneone",
       },
       {
-        title: "Postgres 쿼리를 1,000배 더 빠르게 만들기",
-        link: "https://mattermost.com/blog/making-a-postgres-query-1000-times-faster",
+        title: "Uber는 어떻게 Redis를 통해 초당 4천만 읽기를 제공하는가",
+        link: "https://hides.tistory.com/1143?utm_source=oneoneone",
       },
       {
         title: "‘kubectl create pod’를 실행하면 발생하는 일 ",
@@ -752,8 +752,8 @@ export const ContentsData: Data[] = [
         link: "https://fe-developers.kakaoent.com/2022/221110-ioc-pattern",
       },
       {
-        title: "동적 URL도 robots.txt에서 설정이 가능할까?",
-        link: "https://www.ascentkorea.com/%EB%8F%99%EC%A0%81-url%EB%8F%84-robots-txt%EC%97%90%EC%84%9C-%EC%84%A4%EC%A0%95%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C",
+        title: "야, 너두 웹 테스트 자동화 할 수 있어!",
+        link: "https://www.intelligencelabs.tech/7f88ea4f-93d2-4d05-91d0-2bfb91fd6381",
       },
       {
         title: "병아리 개발자의 첫 웹뷰 개발기: 파일럿 프로젝트",
@@ -764,8 +764,8 @@ export const ContentsData: Data[] = [
         link: "https://medium.com/@pashkapag/4-react-tips-to-instantly-improve-your-code-7456e028cfa3",
       },
       {
-        title: "에어비앤비 자바스크립트 스타일 가이드",
-        link: "https://github.com/airbnb/javascript",
+        title: "웹 애플리케이션 페이지를 패키지로 개발해 본 경험 공유",
+        link: "https://techblog.woowahan.com/16910/",
       },
     ],
   },
