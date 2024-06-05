@@ -2,6 +2,7 @@ import Image from "next/image";
 import NewsletterLink from "./components/newsletter/newsletter-link";
 import Contents from "./components/contents";
 import TechBlogList from "./components/tech-blog-list";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         </header>
         <Contents />
         <TechBlogList />
+        <Contact />
       </div>
     </main>
   );
