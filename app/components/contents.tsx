@@ -11,7 +11,7 @@ const Contents = () => {
     trackAmplitudeEvent("click", obj);
   };
   return (
-    <div className="z-10 w-full max-w-4xl font-mono text-sm grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10 py-6">
+    <div className="z-10 w-full font-mono text-sm grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-10 py-6">
       {ContentsData.map((block, index) => {
         return (
           <div key={index}>
