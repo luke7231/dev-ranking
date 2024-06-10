@@ -6,15 +6,9 @@ import Contact from "./components/contact";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-4 lg:px-0">
-      <div className="max-w-4xl">
-        <header className="w-full py-4 flex justify-between items-center">
-          <Image alt="logo" src={"/logo.png"} width={132} height={74.25} />
-          {/* <NewsletterLink /> */}
-        </header>
-        <Contents />
-        <TechBlogList />
-        <Contact />
+    <main className="flex min-h-screen flex-col items-center justify-center px-4 lg:px-0">
+      <div className="max-w-4xl ">
+        <div>서비스가 종료되었습니다. 감사합니다.</div>
       </div>
     </main>
   );
